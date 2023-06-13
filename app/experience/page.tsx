@@ -1,8 +1,9 @@
 import React from 'react'
+import styles from "./page.module.scss"
 
 const Experience = () => {
   return (
-    <div>Experience</div>
+    <div className={styles.main}>Experience</div>
   )
 }
 

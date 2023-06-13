@@ -9,12 +9,14 @@ html {
 }
 
 body {
+  width: 100vw;
   min-height: 100vh;
   overflow-x: hidden;
   background: #F1F1F1;
   font: 16px/1.5 tahoma, arial, 'Hiragino Sans GB', '\5b8b\4f53', sans-serif;
-  color: #333;
   -webkit-font-smoothing: antialiased;
+  display: flex;
+  flex-direction: column;
 }
 
 ol, ul {
@@ -24,4 +26,9 @@ ol, ul {
 img {
   max-width: 100%;
   height: auto;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
 }
