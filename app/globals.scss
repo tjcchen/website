@@ -1,0 +1,17 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 100px;
+}
+
+body {
+  min-height: 100vh;
+  overflow-x: hidden;
+  background: #F1F1F1;
+  font: 16px/1.5 tahoma, arial, 'Hiragino Sans GB', '\5b8b\4f53', sans-serif;
+  -webkit-font-smoothing: antialiased;
+}

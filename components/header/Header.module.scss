@@ -1,0 +1,23 @@
+.header {
+  height: 0.8rem;
+  border-bottom: 0.01rem solid #ccc;
+
+  &__inner {
+    width: 11.8rem;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__right {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+    & div {
+      margin-left: 0.3rem;
+    }
+  }
+}
