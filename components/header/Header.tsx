@@ -16,6 +16,9 @@ const Header = () => {
           />
         </Link>
         <div className={styles.header__right}>
+          <Link href="/" className={styles.header__right__link}>
+            Home
+          </Link>
           <Link href="/experience" className={styles.header__right__link}>
             Experience
           </Link>

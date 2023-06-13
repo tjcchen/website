@@ -43,7 +43,7 @@ export default function Home() {
               height={48}
             />
           </Link>
-          <Link href="https://linkedin.com/in/andy-chen-engineer">
+          <Link href="https://linkedin.com/in/andy-chen-engineer/">
             <Image
               src="/assets/icons/linkedin.jpg"
               alt="linkedin"

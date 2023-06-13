@@ -1,10 +1,25 @@
-import React from 'react'
-import styles from "./page.module.scss"
+"use client";
+
+import { useState, useEffect } from "react";
+import styles from "./page.module.scss";
+import Tabs, { TabData } from "@/components/tabs/Tabs";
 
 const Experience = () => {
-  return (
-    <div className={styles.main}>Experience</div>
-  )
-}
+  const tabData: TabData = {
+    header: ["TripAdvisor", "Chaince Limited (Hong Kong)", "Baidu Inc."],
+    body: [],
+  };
 
-export default Experience
+  return (
+    <div className={styles.main}>
+      <Tabs
+        data={tabData}
+        onTabClick={() => {
+          console.log("aaa");
+        }}
+      />
+    </div>
+  );
+};
+
+export default Experience;
