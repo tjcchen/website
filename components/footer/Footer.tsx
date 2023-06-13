@@ -1,9 +1,12 @@
-import React from 'react'
+import React from "react";
+import styles from "./Footer.module.scss";
 
 const Footer = () => {
   return (
-    <div>Footer</div>
-  )
-}
+    <footer className={styles.footer}>
+      &copy; 2023 TJCCHEN.COM All rights reserved.
+    </footer>
+  );
+};
 
-export default Footer
+export default Footer;

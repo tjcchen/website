@@ -1,15 +1,33 @@
 import React from "react";
 import styles from "./Header.module.scss";
+import Image from "next/image";
+import Link from "next/link";
 
 const Header = () => {
   return (
     <header className={styles.header}>
       <div className={styles.header__inner}>
-        <div className={styles.header__logo}>tjcchen</div>
+        <Link href="/" className={styles.header__logo}>
+          <Image
+            src="/assets/icons/logo.jpg"
+            width={72}
+            height={72}
+            alt="tjcchen.com"
+          />
+        </Link>
         <div className={styles.header__right}>
-          <div className={styles.header__right__experience}>Experience</div>
-          <div className={styles.header__right__contact}>Contact</div>
-          <div className={styles.header__right__language}>EN / CN</div>
+          <Link href="/experience" className={styles.header__right__link}>
+            Experience
+          </Link>
+          <Link href="/contact" className={styles.header__right__link}>
+            Contact
+          </Link>
+          <Link
+            href="http://www.tjcchen.cn"
+            className={styles.header__right__link}
+          >
+            EN / CN
+          </Link>
         </div>
       </div>
     </header>
