@@ -3,6 +3,7 @@
 import { useState, useEffect } from "react";
 import styles from "./page.module.scss";
 import Tabs, { TabData } from "@/components/tabs/Tabs";
+import Loading from "./loading";
 
 const Experience = () => {
   const [tabData, setTabData] = useState([]);
@@ -25,7 +26,7 @@ const Experience = () => {
         {tabData.length !== 0 ? (
           <Tabs data={tabData} onTabClick={() => {}} />
         ) : (
-          <div>Loading...</div>
+          <Loading />
         )}
       </div>
     </div>
