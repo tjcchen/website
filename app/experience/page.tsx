@@ -21,9 +21,7 @@ const Experience = () => {
       {tabData.length !== 0 ? (
         <Tabs
           data={tabData}
-          onTabClick={() => {
-            console.log("aaa");
-          }}
+          onTabClick={() => {}}
         />
       ) : (
         <div>Loading...</div>

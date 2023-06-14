@@ -1,21 +1,27 @@
 /* Tabs Style */
 
 .container {
-  margin: 1.5rem;
+  margin: 1.2rem 1rem 1.6rem;
   width: 10rem;
   height: 100%;
   display: flex;
   flex-direction: row;
 
   & .header {
-    width: 34%;
+    width: 30%;
 
     & .header_item {
       width: 100%;
-      background: #ccc;
+      background: #F1F1F1;
       margin-top: 1rem;
-      padding: 0.5rem;
+      padding: 0.3rem;
       text-align: center;
+      border-radius: 0.09rem;
+      cursor: pointer;
+
+      & .header_item_logo {
+        border-radius: 0.09rem;
+      }
 
       &:first-child {
         margin-top: 0.6rem;
@@ -24,8 +30,8 @@
   }
 
   & .body {
-    width: 66%;
-    padding-left: 1rem;
+    width: 70%;
+    padding-left: 0.8rem;
 
     & .body_item {
       display: none;
@@ -33,6 +39,15 @@
 
     & .body_item.active {
       display: block;
+    }
+
+    & .body_item_list {
+      list-style-type: square;
+      list-style-position: inside;
+    }
+
+    & .body_item_line {
+      margin-top: 0.08rem;
     }
   }
 }

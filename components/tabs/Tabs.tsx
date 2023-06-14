@@ -1,5 +1,6 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import styles from "./Tabs.module.scss";
+import Image from "next/image";
 
 export interface TabHeader {
   company: string;
@@ -27,25 +28,33 @@ const Tabs = ({
 }) => {
   const [selected, setSelected] = useState(0);
 
-  useEffect(() => {
-    console.log(data);
-  }, []);
-
   return (
     <div className={styles.container}>
+      {/* Left Tab Header */}
       <div className={styles.header}>
         {data.map((tab: TabData, index: number) => (
           <div
             key={index}
             className={styles.header_item}
             onClick={() => {
-              setSelected(index);
+              window.scrollTo({ top: 140, behavior: "smooth" });
+              setTimeout(() => setSelected(index), 100);
             }}
           >
-            {tab?.header.company}
+            <Image
+              src={tab?.header.logo}
+              alt={tab?.header.company}
+              width={80}
+              height={80}
+              className={styles.header_item_logo}
+            />
+            <div className={styles.header_item_company}>
+              {tab?.header.company}
+            </div>
           </div>
         ))}
       </div>
+      {/* Right Tab Body */}
       <div className={styles.body}>
         {data.map((tab: TabData, index: number) => (
           <div
@@ -54,10 +63,17 @@ const Tabs = ({
             style={{ display: selected === index ? "block" : "none" }}
           >
             <div>Job Title: {tab?.body.role}</div>
-            <div>Date: {tab?.body.start} - {tab?.body.end}</div>
-            {tab?.body.responsibilities.map((task: string, idx: number) => (
-              <div key={idx}>{task}</div>
-            ))}
+            <div className={styles.body_item_line}>
+              Date: {tab?.body.start} - {tab?.body.end}
+            </div>
+            <div className={styles.body_item_line}>Responsibilities: </div>
+            <ul className={styles.body_item_list}>
+              {tab?.body.responsibilities.map((task: string, idx: number) => (
+                <li key={idx} className={styles.body_item_line}>
+                  {task}
+                </li>
+              ))}
+            </ul>
           </div>
         ))}
       </div>
