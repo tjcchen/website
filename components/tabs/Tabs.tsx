@@ -1,4 +1,4 @@
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import styles from "./Tabs.module.scss";
 
 export interface TabHeader {
@@ -25,6 +25,8 @@ const Tabs = ({
   data: TabData[];
   onTabClick: () => void;
 }) => {
+  const [selected, setSelected] = useState(0);
+
   useEffect(() => {
     console.log(data);
   }, []);
@@ -33,15 +35,26 @@ const Tabs = ({
     <div className={styles.container}>
       <div className={styles.header}>
         {data.map((tab: TabData, index: number) => (
-          <div key={index} className={styles.header_item}>
+          <div
+            key={index}
+            className={styles.header_item}
+            onClick={() => {
+              setSelected(index);
+            }}
+          >
             {tab?.header.company}
           </div>
         ))}
       </div>
       <div className={styles.body}>
         {data.map((tab: TabData, index: number) => (
-          <div key={index} className={styles.body_item}>
-            <div>{tab?.body.role}</div>
+          <div
+            key={index}
+            className={styles.body_item}
+            style={{ display: selected === index ? "block" : "none" }}
+          >
+            <div>Job Title: {tab?.body.role}</div>
+            <div>Date: {tab?.body.start} - {tab?.body.end}</div>
             {tab?.body.responsibilities.map((task: string, idx: number) => (
               <div key={idx}>{task}</div>
             ))}

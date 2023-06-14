@@ -26,5 +26,13 @@
   & .body {
     width: 66%;
     padding-left: 1rem;
+
+    & .body_item {
+      display: none;
+    }
+
+    & .body_item.active {
+      display: block;
+    }
   }
 }
