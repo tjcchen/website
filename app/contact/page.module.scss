@@ -1,4 +1,37 @@
 .main {
   background: #FFF;
   flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+
+  & .contact {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+    padding: 0.8rem;
+  }
+
+  & .media {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+    padding: 0.8rem;
+  }
+
+  & p {
+    margin-top: 0.16rem;
+  }
+
+  & a {
+    text-decoration: underline;
+    color: blue;
+  }
 }
