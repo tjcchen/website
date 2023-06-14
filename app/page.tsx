@@ -35,18 +35,18 @@ export default function Home() {
         </p>
         <p>I can be reached via the following channels:</p>
         <div className={styles.social_media}>
-          <Link href="https://github.com/tjcchen">
-            <Image
-              src="/assets/icons/github.png"
-              alt="github"
-              width={48}
-              height={48}
-            />
-          </Link>
           <Link href="https://linkedin.com/in/andy-chen-engineer/">
             <Image
               src="/assets/icons/linkedin.jpg"
               alt="linkedin"
+              width={48}
+              height={48}
+            />
+          </Link>
+          <Link href="https://github.com/tjcchen">
+            <Image
+              src="/assets/icons/github.png"
+              alt="github"
               width={48}
               height={48}
             />
