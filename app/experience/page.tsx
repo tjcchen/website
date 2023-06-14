@@ -18,14 +18,16 @@ const Experience = () => {
 
   return (
     <div className={styles.main}>
-      {tabData.length !== 0 ? (
-        <Tabs
-          data={tabData}
-          onTabClick={() => {}}
-        />
-      ) : (
-        <div>Loading...</div>
-      )}
+      <div className={styles.caption}>
+        CLICK ON THE COMPANY LOGO TO SEE MORE INTRO:
+      </div>
+      <div className={styles.container}>
+        {tabData.length !== 0 ? (
+          <Tabs data={tabData} onTabClick={() => {}} />
+        ) : (
+          <div>Loading...</div>
+        )}
+      </div>
     </div>
   );
 };
