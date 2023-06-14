@@ -10,7 +10,7 @@ const Experience = () => {
 
   useEffect(() => {
     const fetchData = async () => {
-      const response = await fetch("/api/experience", { cache: "no-cache" });
+      const response = await fetch("/api/experience");
       const data = await response.json();
       setTabData(data);
     };
@@ -23,10 +23,10 @@ const Experience = () => {
         CLICK ON THE COMPANY LOGO TO SEE MORE INTRO:
       </div>
       <div className={styles.container}>
-        {tabData.length !== 0 ? (
-          <Tabs data={tabData} onTabClick={() => {}} />
-        ) : (
+        {tabData.length === 0 ? (
           <Loading />
+        ) : (
+          <Tabs data={tabData} onTabClick={() => {}} />
         )}
       </div>
     </div>
