@@ -5,15 +5,14 @@
   flex: 1;
 }
 
-.container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 .caption {
   margin: 1.2rem 1rem 0;
   font-size: 0.24rem;
   font-weight: 700;
   color: #333;
 }
+
+.container {
+  margin: 0.6rem 1rem 1.6rem
+}
+
