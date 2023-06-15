@@ -41,15 +41,17 @@ const Tabs = ({
               setTimeout(() => setSelected(index), 100);
             }}
           >
-            <Image
-              src={tab?.header.logo}
-              alt={tab?.header.company}
-              width={80}
-              height={80}
-              className={styles.header_item_logo}
-            />
-            <div className={styles.header_item_company}>
-              {tab?.header.company}
+            {tab?.header.logo && (
+              <Image
+                src={tab?.header.logo}
+                alt={tab?.header.organization}
+                width={80}
+                height={80}
+                className={styles.header_item_logo}
+              />
+            )}
+            <div className={styles.header_item_organization}>
+              {tab?.header.organization}
             </div>
           </div>
         ))}
@@ -62,11 +64,15 @@ const Tabs = ({
             className={styles.body_item}
             style={{ display: selected === index ? "block" : "none" }}
           >
-            <div>Job Title: {tab?.body.role}</div>
-            <div className={styles.body_item_line}>
-              Date: {tab?.body.start} - {tab?.body.end}
+            <div>
+              <strong>Job Title:</strong> {tab?.body.role}
             </div>
-            <div className={styles.body_item_line}>Responsibilities: </div>
+            <div className={styles.body_item_line}>
+              <strong>Date:</strong> {tab?.body.start} - {tab?.body.end}
+            </div>
+            <div className={styles.body_item_line}>
+              <strong>Responsibilities:</strong>{" "}
+            </div>
             <ul className={styles.body_item_list}>
               {tab?.body.responsibilities.map((task: string, idx: number) => (
                 <li key={idx} className={styles.body_item_line}>

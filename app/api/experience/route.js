@@ -9,7 +9,7 @@ export const GET = async (req, res) => {
   // mock data
   const data = [{
       header: {
-        company: "Baidu Inc.",
+        organization: "Baidu Inc.",
         logo: "/assets/images/baidu.jpg",
       },
       body: {
@@ -28,7 +28,7 @@ export const GET = async (req, res) => {
     },
     {
       header: {
-        company: "Chaince Limited( Hong Kong )",
+        organization: "Chaince Limited( Hong Kong )",
         logo: "/assets/images/chaince.jpg",
       },
       body: {
@@ -48,7 +48,7 @@ export const GET = async (req, res) => {
     },
     {
       header: {
-        company: "TripAdvisor",
+        organization: "TripAdvisor",
         logo: "/assets/images/tripadvisor.jpg",
       },
       body: {
@@ -64,6 +64,30 @@ export const GET = async (req, res) => {
           "Applying the Bing Translator-related API to develop the translating function of reviews from English to Chinese to eliminate language barriers for Chinese users.",
           "Participating in the design and development of the shopping mall coupon project for the mobile version of the website to make promotion for the shopping malls of Phuket Island, Bangkok, Chiang Mai, and Pattaya of Thailand in China.",
         ],
+      },
+    },
+    {
+      header: {
+        organization: "Northeastern University (US)",
+        logo: "/assets/images/neu.jpg",
+      },
+      body: {
+        role: "Master of Science - MS, Computer Software Engineering",
+        start: "2020-09-01",
+        end: "2020-09-01",
+        responsibilities: []
+      },
+    },
+    {
+      header: {
+        organization: "Tianjing University of Technology and Education",
+        logo: "/assets/images/tute.png",
+      },
+      body: {
+        role: "Bachelor's degree, Electronic Commerce",
+        start: "2014-07-01",
+        end: "2010-09-01",
+        responsibilities: []
       },
     },
   ];
