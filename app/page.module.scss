@@ -28,9 +28,9 @@
   width: 60%;
   display: flex;
   justify-content: center;
-  align-items: center;
   flex-direction: column;
-  padding: 0 0.6rem 0 0;
+  padding: 0 0.8rem 0 0;
+  text-align: justify;
 
   p {
     margin-top: 0.16rem;
@@ -46,15 +46,14 @@
     display: flex;
     justify-content: space-between;
 
-    & a {
-      display: inline-block;
+    & a { 
+      min-width: 0;
       width: 0.48rem;
       height: 0.48rem;
-      background: #ccc;
       flex: 1;
-      margin: 0 1rem;
-      border-radius: 0.09;
+      border-radius: 0.09rem;
       overflow: hidden;
+      text-align: center;
     }
 
     & img {
@@ -63,12 +62,38 @@
   }
 }
 
-/* Mobile */
-@media (max-width: 700px) {
-  
+/* Tablet and Smaller Desktop */
+@media (min-width: 701px) and (max-width: 1024px) {
+  .main {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .intro {
+    width: 100%;
+    padding: 0.4rem 1.2rem 0;
+  }
+
+  .content {
+    width: 100%;
+    padding: 0.4rem 1.2rem 1rem;
+  }
 }
 
-/* Tablet and Smaller Desktop */
-@media (min-width: 701px) and (max-width: 1120px) {
-  
+/* Mobile */
+@media (max-width: 700px) {
+  .main {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .intro {
+    width: 100%;
+    padding: 0.4rem 0.36rem 0;
+  }
+
+  .content {
+    width: 100%;
+    padding: 0.4rem 0.36rem 1rem;
+  }
 }

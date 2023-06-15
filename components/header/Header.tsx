@@ -1,9 +1,16 @@
+"use client";
+
 import React from "react";
 import styles from "./Header.module.scss";
 import Image from "next/image";
 import Link from "next/link";
+import { MdMenu, MdOutlineClose } from "react-icons/md";
 
 const Header = () => {
+  const onMenuClick = () => {
+    console.log(222);
+  };
+
   return (
     <header className={styles.header}>
       <div className={styles.header__inner}>
@@ -32,6 +39,10 @@ const Header = () => {
             EN / CN
           </Link>
         </div>
+        <button className={styles.menu__btn} onClick={onMenuClick}>
+          <MdMenu color="white" fontSize="24px" />
+          <span>Menu</span>
+        </button>
       </div>
     </header>
   );

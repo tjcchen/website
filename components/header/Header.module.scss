@@ -16,10 +16,11 @@
   }
 
   &__logo {
-    display: flex;
-    align-items: center;
     border-radius: 100%;
     overflow: hidden;
+    width: 72px;
+    height: 72px;
+    flex: 0 0 auto;
     & img {
       border-radius: 100%;
     }
@@ -38,5 +39,54 @@
       font-size: 0.18rem;
       font-weight: 700;
     }
+  }
+
+  & .menu__btn {
+    padding: 0.1rem;
+    color: #FFF;
+    background: #1A1A1A;
+    outline: none;
+    border: 2px solid #FFF;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    
+    & span {
+      color: #FFF;
+      font-weight: 700;
+      margin-left: 0.05rem;
+      font-size: 0.18rem;
+    }
+  }
+}
+
+/* Tablet and Smaller Desktop */
+@media (min-width: 701px) and (max-width: 1024px) {
+  .header__inner {
+    padding: 0 0.8rem;
+
+    .menu__btn {
+      display: flex;
+    }
+  }
+
+  .header__right {
+    display: none;
+  }
+}
+
+/* Mobile */
+@media (max-width: 700px) {
+  .header__inner {
+    padding: 0 0.3rem;
+
+    .menu__btn {
+      display: flex;
+    }
+  }
+
+  .header__right {
+    display: none;
   }
 }

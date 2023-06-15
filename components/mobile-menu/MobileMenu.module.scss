@@ -1,0 +1,61 @@
+/* Mobile Menu Style */
+
+.container {
+  position: fixed;
+  display: none;
+  width: 100vw;
+  height: 100vh;
+  transform: translate3d(0, 0, 0);
+  pointer-events: auto;
+
+  & .menu__backdrop {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 100;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.3);
+  }
+
+  & .menu__content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 101;
+    width: 60%;
+    height: 100%;
+    background: #FFF;
+  }
+
+  & .menu__close {
+    position: absolute;
+    top: 0.1rem;
+    right: 0.1rem;
+    cursor: pointer;
+  }
+
+  & .menu__items {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  & .menu__item {
+    font-size: 0.18rem;
+    font-weight: 700;
+    width: 100%;
+    height: 1rem;
+    line-height: 1rem;
+    padding: 0 0.3rem;
+    border-bottom: 1px solid #F4F4F4;
+  }
+}

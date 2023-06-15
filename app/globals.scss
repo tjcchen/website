@@ -13,13 +13,14 @@ body {
   min-height: 100vh;
   overflow-x: hidden;
   background: #F4F4F4;
-  font: 16px/1.5 Open Sans,Helvetica Neue,Helvetica,Arial,sans-serif;
+  font: 0.16rem/1.5 Open Sans, Helvetica Neue, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   display: flex;
   flex-direction: column;
 }
 
-ol, ul {
+ol,
+ul {
   list-style: none;
 }
 
@@ -31,4 +32,23 @@ img {
 a {
   text-decoration: none;
   color: #333;
+}
+
+button, input, optgroup, select, textarea {
+  font-family: inherit;
+  font-size: 100%;
+  line-height: 1.15;
+  margin: 0;
+}
+
+button, input {
+  overflow: visible;
+}
+
+button, select {
+  text-transform: none;
+}
+
+button, [type="button"], [type="reset"],[type="submit"] {
+  -webkit-appearance: button;
 }

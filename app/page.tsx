@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <div className={styles.main}>
+    <main className={styles.main}>
       <div className={styles.intro}>
         <Image
           src="/assets/images/avatar.jpg"
@@ -61,6 +61,6 @@ export default function Home() {
           </Link>
         </div>
       </div>
-    </div>
+    </main>
   );
 }
