@@ -28,6 +28,11 @@ const Tabs = ({
 }) => {
   const [selected, setSelected] = useState(0);
 
+  const onTabHeaderClick = (index: number) => {
+    window.scrollTo({ top: 140, behavior: "smooth" });
+    setTimeout(() => setSelected(index), 100);
+  };
+
   return (
     <div className={styles.container}>
       {/* Left Tab Header */}
@@ -35,11 +40,10 @@ const Tabs = ({
         {data.map((tab: TabData, index: number) => (
           <div
             key={index}
-            className={styles.header_item}
-            onClick={() => {
-              window.scrollTo({ top: 140, behavior: "smooth" });
-              setTimeout(() => setSelected(index), 100);
-            }}
+            className={`${styles.header_item} ${
+              index === selected ? styles.header_item_active : ""
+            }`}
+            onClick={() => onTabHeaderClick(index)}
           >
             {tab?.header.logo && (
               <Image
@@ -47,10 +51,10 @@ const Tabs = ({
                 alt={tab?.header.organization}
                 width={80}
                 height={80}
-                className={styles.header_item_logo}
+                className={styles.header_logo}
               />
             )}
-            <div className={styles.header_item_organization}>
+            <div className={styles.header_organization}>
               {tab?.header.organization}
             </div>
           </div>
@@ -64,22 +68,32 @@ const Tabs = ({
             className={styles.body_item}
             style={{ display: selected === index ? "block" : "none" }}
           >
-            <div>
-              <strong>Job Title:</strong> {tab?.body.role}
-            </div>
+            {/* Company */}
+            {tab?.body.role && <h2>Job Title: {tab?.body.role}</h2>}
+            {/* Degree */}
+            {tab?.body.degree && <h2>Degree: {tab?.body.degree}</h2>}
+            {/* Date */}
             <div className={styles.body_item_line}>
               <strong>Date:</strong> {tab?.body.start} - {tab?.body.end}
             </div>
-            <div className={styles.body_item_line}>
-              <strong>Responsibilities:</strong>{" "}
-            </div>
-            <ul className={styles.body_item_list}>
-              {tab?.body.responsibilities.map((task: string, idx: number) => (
-                <li key={idx} className={styles.body_item_line}>
-                  {task}
-                </li>
-              ))}
-            </ul>
+            {/* Responsibilities */}
+            {tab?.body.responsibilities &&
+              tab?.body.responsibilities.length > 0 && (
+                <>
+                  <div className={styles.body_item_line}>
+                    <strong>Responsibilities:</strong>{" "}
+                  </div>
+                  <ul className={styles.body_item_list}>
+                    {tab?.body.responsibilities.map(
+                      (task: string, idx: number) => (
+                        <li key={idx} className={styles.body_item_line}>
+                          {task}
+                        </li>
+                      )
+                    )}
+                  </ul>
+                </>
+              )}
           </div>
         ))}
       </div>

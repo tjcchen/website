@@ -15,7 +15,7 @@ export const GET = async (req, res) => {
       body: {
         role: "Senior Software Development Engineer",
         start: "2021-02-24",
-        end: "present",
+        end: "Present",
         responsibilities: [
           "Being responsible for the development and maintenance of the self-build page, the largest traffic mobile site of HCG (Health Center Group) with over 120 million PV and 6 million CPM revenue per day.",
           "Leading the development of the desktop version of the self-build page, which helped millions of patients or people with ailments to obtain professional medical information in China.",
@@ -72,7 +72,7 @@ export const GET = async (req, res) => {
         logo: "/assets/images/neu.jpg",
       },
       body: {
-        role: "Master of Science - MS, Computer Software Engineering",
+        degree: "Master of Science - MS, Computer Software Engineering",
         start: "2020-09-01",
         end: "2020-09-01",
         responsibilities: []
@@ -84,7 +84,7 @@ export const GET = async (req, res) => {
         logo: "/assets/images/tute.png",
       },
       body: {
-        role: "Bachelor's degree, Electronic Commerce",
+        degree: "Bachelor's degree, Electronic Commerce",
         start: "2014-07-01",
         end: "2010-09-01",
         responsibilities: []
