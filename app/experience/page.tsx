@@ -19,9 +19,11 @@ const Experience = () => {
 
   return (
     <div className={styles.main}>
-      <div className={styles.caption}>
-        CLICK ON THE COMPANY LOGO TO SEE MORE INTRO:
-      </div>
+      {tabData.length > 0 && (
+        <div className={styles.caption}>
+          CLICK ON THE COMPANY LOGO TO SEE MORE INTRO:
+        </div>
+      )}
       <div className={styles.container}>
         {tabData.length === 0 ? (
           <Loading />
