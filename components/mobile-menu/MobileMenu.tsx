@@ -1,21 +1,22 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useContext, useEffect } from "react";
+import { MenuContext } from "@/app/menu-provider";
 import styles from "./MobileMenu.module.scss";
 import { MdOutlineClose } from "react-icons/md";
 import Link from "next/link";
 
 const MobileMenu = () => {
-  const [isActive, setIsActive] = useState(false);
+  const { isMenuActive, setIsMenuActive } = useContext(MenuContext);
 
   const onCloseHandler = () => {
-    setIsActive(true);
+    setIsMenuActive(false);
   };
 
   return (
     <div
       style={{
-        display: isActive ? "block" : "none",
+        display: isMenuActive ? "block" : "none",
       }}
       className={styles.container}
     >

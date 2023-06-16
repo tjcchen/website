@@ -2,6 +2,7 @@ import "./globals.scss";
 import Header from "@/components/header/Header";
 import Footer from "@/components/footer/Footer";
 import MobileMenu from "@/components/mobile-menu/MobileMenu";
+import MenuProvider from "./menu-provider";
 
 export const metadata = {
   title: "TJCChen's Website",
@@ -16,10 +17,12 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        <Header />
-        {children}
-        <Footer />
-        <MobileMenu />
+        <MenuProvider>
+          <Header />
+          {children}
+          <Footer />
+          <MobileMenu />
+        </MenuProvider>
       </body>
     </html>
   );

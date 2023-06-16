@@ -1,14 +1,17 @@
 "use client";
 
-import React from "react";
+import { useContext, useEffect } from "react";
+import { MenuContext } from "@/app/menu-provider";
 import styles from "./Header.module.scss";
 import Image from "next/image";
 import Link from "next/link";
 import { MdMenu, MdOutlineClose } from "react-icons/md";
 
 const Header = () => {
+  const { isMenuActive, setIsMenuActive } = useContext(MenuContext);
+
   const onMenuClick = () => {
-    console.log(222);
+    setIsMenuActive(true);
   };
 
   return (
