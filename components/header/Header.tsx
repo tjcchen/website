@@ -43,7 +43,11 @@ const Header = () => {
           </Link>
         </div>
         <button className={styles.menu__btn} onClick={onMenuClick}>
-          <MdMenu color="white" fontSize="24px" />
+          {isMenuActive ? (
+            <MdOutlineClose color="white" fontSize="24px" />
+          ) : (
+            <MdMenu color="white" fontSize="24px" />
+          )}
           <span>Menu</span>
         </button>
       </div>

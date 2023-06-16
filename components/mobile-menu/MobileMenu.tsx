@@ -20,7 +20,7 @@ const MobileMenu = () => {
       }}
       className={styles.container}
     >
-      <div className={styles.menu__backdrop}></div>
+      <div className={styles.menu__backdrop} onClick={onCloseHandler}></div>
       <div className={styles.menu__content}>
         <MdOutlineClose
           fontSize={32}
