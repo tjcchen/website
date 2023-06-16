@@ -1,23 +1,8 @@
 import { useState } from "react";
 import styles from "./Tabs.module.scss";
 import Image from "next/image";
-
-export interface TabHeader {
-  company: string;
-  logo?: string;
-}
-
-export interface TabBody {
-  role: string;
-  start: string;
-  end: string;
-  responsibilities: string[];
-}
-
-export interface TabData {
-  header: TabHeader;
-  body: TabBody;
-}
+import { TabData, TabHeader, TabBody } from "@/interfaces/Tabs.d";
+import useIsMobile from "@/hooks/useMobile";
 
 const Tabs = ({
   data,
@@ -27,10 +12,15 @@ const Tabs = ({
   onTabClick: () => void;
 }) => {
   const [selected, setSelected] = useState(0);
+  const isMobile = useIsMobile();
 
   const onTabHeaderClick = (index: number) => {
-    window.scrollTo({ top: 140, behavior: "smooth" });
-    setTimeout(() => setSelected(index), 100);
+    if (!isMobile) {
+      window.scrollTo({ top: 140, behavior: "smooth" });
+      setTimeout(() => setSelected(index), 100);
+    } else {
+      setSelected(index);
+    }
   };
 
   return (

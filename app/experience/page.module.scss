@@ -16,3 +16,14 @@
   margin: 0.6rem 1rem 1.6rem
 }
 
+/* Tablet and Mobile */
+@media (max-width: 1024px) {
+  .caption {
+    display: none;
+  }
+
+  .container {
+    margin: 0;
+  }
+}
+

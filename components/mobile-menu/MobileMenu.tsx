@@ -15,10 +15,10 @@ const MobileMenu = () => {
 
   return (
     <div
+      className={styles.container}
       style={{
         display: isMenuActive ? "block" : "none",
       }}
-      className={styles.container}
     >
       <div className={styles.menu__backdrop} onClick={onCloseHandler}></div>
       <div className={styles.menu__content}>

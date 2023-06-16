@@ -68,3 +68,10 @@
       background-position: 66vw 0
   }
 }
+
+/* Tablet and Mobile */
+@media (max-width: 1024px) {
+  .caption {
+    display: none;
+  }
+}
