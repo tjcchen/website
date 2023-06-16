@@ -21,10 +21,11 @@ const Experience = () => {
     <div className={styles.main}>
       {tabData.length > 0 && (
         <div className={styles.caption}>
-          CLICK ON THE COMPANY LOGO TO SEE MORE INTRO:
+          CLICK ON THE COMPANY TO SEE MORE INTRO
         </div>
       )}
       <div className={styles.container}>
+        {/* <Loading /> */}
         {tabData.length === 0 ? (
           <Loading />
         ) : (

@@ -6,14 +6,18 @@
 }
 
 .caption {
-  margin: 1.2rem 1rem 0;
-  font-size: 0.24rem;
+  margin: 1rem 0 0;
+  width: 100%;
+  text-align: center;
+  font-size: 0.4rem;
   font-weight: 700;
   color: #333;
+  transform: translate3d(0, 0, 0);
 }
 
 .container {
-  margin: 0.6rem 1rem 1.6rem
+  margin: 0.6rem 1rem 1.6rem;
+  transform: translate3d(0, 0, 0);
 }
 
 /* Tablet and Mobile */

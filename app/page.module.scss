@@ -67,6 +67,7 @@
   .main {
     display: flex;
     flex-direction: column;
+    justify-content: center;
   }
 
   .intro {
@@ -85,15 +86,16 @@
   .main {
     display: flex;
     flex-direction: column;
+    justify-content: center;
   }
 
   .intro {
     width: 100%;
-    padding: 0.4rem 0.36rem 0;
+    padding: 0.4rem 0.32rem 0;
   }
 
   .content {
     width: 100%;
-    padding: 0.4rem 0.36rem 1rem;
+    padding: 0.4rem 0.32rem 1rem;
   }
 }

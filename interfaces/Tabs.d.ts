@@ -14,7 +14,7 @@ export declare interface TabBody {
   degree?: string;
   start: string;
   end: string;
-  responsibilities: string[];
+  responsibilities?: string[];
 }
 
 export declare interface TabData {

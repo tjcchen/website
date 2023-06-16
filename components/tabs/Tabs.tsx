@@ -59,7 +59,7 @@ const Tabs = ({
             style={{ display: selected === index ? "block" : "none" }}
           >
             {/* Company */}
-            {tab?.body.role && <h2>Job Title: {tab?.body.role}</h2>}
+            {tab?.body.role && <h2>Role: {tab?.body.role}</h2>}
             {/* Degree */}
             {tab?.body.degree && <h2>Degree: {tab?.body.degree}</h2>}
             {/* Date */}
