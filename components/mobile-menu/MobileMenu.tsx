@@ -34,6 +34,9 @@ const MobileMenu = () => {
           <Link href="/experience" className={styles.menu__item}>
             Experience
           </Link>
+          <Link href="/skill" className={styles.menu__item}>
+            Skill
+          </Link>
           <Link href="/contact" className={styles.menu__item}>
             Contact
           </Link>

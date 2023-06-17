@@ -4,7 +4,7 @@ import Link from "next/link";
 
 const Contact = () => {
   return (
-    <div className={styles.main}>
+    <main className={styles.main}>
       <div className={styles.contact}>
         <h1>Contact</h1>
         <p>
@@ -29,7 +29,7 @@ const Contact = () => {
           </Link>
         </p>
       </div>
-    </div>
+    </main>
   );
 };
 

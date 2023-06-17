@@ -32,6 +32,9 @@ const Header = () => {
           <Link href="/experience" className={styles.header__right__link}>
             Experience
           </Link>
+          <Link href="/skill" className={styles.header__right__link}>
+            Skill
+          </Link>
           <Link href="/contact" className={styles.header__right__link}>
             Contact
           </Link>

@@ -1,0 +1,41 @@
+/* Skills Style */
+
+.main {
+  background: #FFF;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 1rem 1.8rem 1.2rem;
+
+  & h1 {
+    text-align: center;
+  }
+
+  & h3 {
+    margin-top: 0.3rem;
+    font-size: 0.18rem;
+  }
+
+  & strong {
+    font-size: 0.18rem;
+  }
+
+  & p {
+    margin-top: 0.3rem;
+  }
+}
+
+/* Tablet and Smaller Desktop */
+@media (min-width: 701px) and (max-width: 1024px) {
+  .main {
+    padding: 1rem 1.2rem 1.2rem;
+  }
+}
+
+/* Mobile */
+@media (max-width: 700px) {
+  .main {
+    padding: 1rem 0.32rem 1.2rem;
+  }
+}

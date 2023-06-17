@@ -1,3 +1,8 @@
+/**
+ * Page Enter Code Logic
+ * 
+ * @author Andy Chen
+ */
 "use client";
 
 import { useContext, useEffect } from "react";
@@ -10,8 +15,6 @@ export function NavigationEvents() {
   const { isMenuActive, setIsMenuActive } = useContext(MenuContext);
 
   useEffect(() => {
-    const url = `${pathname}?${searchParams}`;
-
     isMenuActive && setIsMenuActive(false);
   }, [pathname, searchParams]);
 

@@ -18,10 +18,10 @@ const Experience = () => {
   }, []);
 
   return (
-    <div className={styles.main}>
+    <main className={styles.main}>
       {tabData.length > 0 && (
         <div className={styles.caption}>
-          CLICK ON THE COMPANY TO SEE MORE INTRO
+          TAP ON THE COMPANY TO SEE MORE INTRO
         </div>
       )}
       <div className={styles.container}>
@@ -32,7 +32,7 @@ const Experience = () => {
           <Tabs data={tabData} onTabClick={() => {}} />
         )}
       </div>
-    </div>
+    </main>
   );
 };
 
