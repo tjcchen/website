@@ -5,6 +5,7 @@ import Link from "next/link";
 const Contact = () => {
   return (
     <main className={styles.main}>
+      <h1>WELCOME TO BUILD A CONNECTION WITH ME</h1>
       <div className={styles.contact}>
         <h1>Contact</h1>
         <p>
