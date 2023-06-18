@@ -2,8 +2,8 @@
 
 .main {
   background: #FFF;
-  min-height: 15rem;
-  flex: 1 0 calc(100vh - 2.1rem);
+  // min-height: 15rem;
+  // flex: 1 0 calc(100vh - 2.1rem);
 }
 
 .caption {
@@ -23,6 +23,10 @@
 
 /* Tablet and Mobile */
 @media (max-width: 1024px) {
+  .main {
+    flex: 1 0 calc(100vh - 2.1rem);
+  }
+
   .caption {
     display: none;
   }
