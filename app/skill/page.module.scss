@@ -2,12 +2,11 @@
 
 .main {
   background: #FFF;
-  flex: 1;
+  flex: 1 0 calc(100vh - 2.1rem);
   display: flex;
   justify-content: center;
   flex-direction: column;
   padding: 1rem 1.8rem 1.2rem;
-  min-height: calc(100vh - 2.1rem);
 
   & h1 {
     text-align: center;

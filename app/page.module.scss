@@ -2,10 +2,9 @@
 
 .main {
   background: #FFF;
-  flex: 1;
+  flex: 1 0 calc(100vh - 2.1rem);
   display: flex;
   flex-direction: row;
-  min-height: calc(100vh - 2.1rem);
 }
 
 .intro {
