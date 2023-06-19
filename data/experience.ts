@@ -115,7 +115,7 @@ const data = [
     },
     body: {
       is_company: 0,
-      organization: "Tianjing University of Technology and Education",
+      organization: "Tianjin University of Technology and Education",
       school: "College of Economics and Management",
       major: "Electronic Commerce",
       degree: "Bachelor of Management",
