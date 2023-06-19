@@ -5,7 +5,7 @@
  */
 
 /**
- * Sleep for a specified time, in milisecond
+ * Sleep for a specified time, in miliseconds
  *
  * @ms {number} | sleep time
  * @return {Promise} | delayed promise
