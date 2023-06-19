@@ -67,11 +67,25 @@ const Tabs = ({
               </p>
             )}
             {/* Organization */}
-            {tab?.body.organization && (
-              <p
-                className={`${styles.body_item_line} ${styles.body_item_large}`}
-              >
+            {tab?.body.is_company ? (
+              <p className={`${styles.body_item_line}`}>
                 <strong>COMPANY:</strong> {tab?.body.organization}
+              </p>
+            ) : (
+              <p className={`${styles.body_item_line} ${styles.body_item_large}`}>
+                <strong>INSTITUTE:</strong> {tab?.body.organization}
+              </p>
+            )}
+            {/* School */}
+            {tab?.body.school && (
+              <p className={styles.body_item_line}>
+                <strong>SCHOOL:</strong> {tab?.body.school}
+              </p>
+            )}
+            {/* Major */}
+            {tab?.body.major && (
+              <p className={styles.body_item_line}>
+                <strong>MAJOR:</strong> {tab?.body.major}
               </p>
             )}
             {/* Degree */}
@@ -92,11 +106,33 @@ const Tabs = ({
                 <strong>DATE:</strong> {tab?.body.start} - {tab?.body.end}
               </p>
             )}
+            {/* Brief Introduction */}
+            {tab?.body.introduction && (
+              <>
+                <div className={styles.body_item_line_medium}>
+                  <strong>BRIEF INTRODUCTION:</strong>{" "}
+                </div>
+                <p className={styles.body_item_line}>
+                  {tab?.body.introduction}
+                </p>
+              </>
+            )}
+            {/* Miscellaneous */}
+            {tab?.body.miscellaneous && (
+              <>
+                <div className={styles.body_item_line_medium}>
+                  <strong>MISCELLANEOUS:</strong>{" "}
+                </div>
+                <p className={styles.body_item_line}>
+                  {tab?.body.miscellaneous}
+                </p>
+              </>
+            )}
             {/* Responsibilities */}
             {tab?.body.responsibilities &&
               tab?.body.responsibilities.length > 0 && (
                 <>
-                  <div className={styles.body_item_line}>
+                  <div className={styles.body_item_line_medium}>
                     <strong>RESPONSIBILITIES:</strong>{" "}
                   </div>
                   <ul className={styles.body_item_list}>

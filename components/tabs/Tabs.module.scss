@@ -82,12 +82,16 @@
       margin-top: 0.09rem;
     }
 
+    & .body_item_line_medium {
+      margin-top: 0.2rem;
+    }
+
     & p.body_item_line:first-child {
       margin-top: -0.03rem;
     }
 
     & .body_item_large {
-      font-size: 0.22rem;
+      font-size: 0.24rem;
       font-weight: 700;
     }
   }
