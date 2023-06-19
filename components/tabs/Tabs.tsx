@@ -1,7 +1,7 @@
 import { useState } from "react";
 import styles from "./Tabs.module.scss";
 import Image from "next/image";
-import { TabData, TabHeader, TabBody } from "@/interfaces/Tabs.d";
+import { TabData, TabHeader, TabBody } from "@/interfaces/Tabs";
 import useIsMobile from "@/hooks/useMobile";
 
 const Tabs = ({
@@ -58,20 +58,46 @@ const Tabs = ({
             className={styles.body_item}
             style={{ display: selected === index ? "block" : "none" }}
           >
-            {/* Company */}
-            {tab?.body.role && <h2>Role: {tab?.body.role}</h2>}
+            {/* Role */}
+            {tab?.body.role && (
+              <p
+                className={`${styles.body_item_line} ${styles.body_item_large}`}
+              >
+                <strong>JOB ROLE:</strong> {tab?.body.role}
+              </p>
+            )}
+            {/* Organization */}
+            {tab?.body.organization && (
+              <p
+                className={`${styles.body_item_line} ${styles.body_item_large}`}
+              >
+                <strong>COMPANY:</strong> {tab?.body.organization}
+              </p>
+            )}
             {/* Degree */}
-            {tab?.body.degree && <h2>Degree: {tab?.body.degree}</h2>}
+            {tab?.body.degree && (
+              <p className={styles.body_item_line}>
+                <strong>DEGREE:</strong> {tab?.body.degree}
+              </p>
+            )}
+            {/* Location */}
+            {tab?.body.location && (
+              <p className={styles.body_item_line}>
+                <strong>LOCATION:</strong> {tab?.body.location}
+              </p>
+            )}
             {/* Date */}
-            <div className={styles.body_item_line}>
-              <strong>Date:</strong> {tab?.body.start} - {tab?.body.end}
-            </div>
+            {tab?.body.start && tab?.body.end && (
+              <p className={styles.body_item_line}>
+                <strong>DATE:</strong> {tab?.body.start} - {tab?.body.end}
+              </p>
+            )}
             {/* Responsibilities */}
             {tab?.body.responsibilities &&
               tab?.body.responsibilities.length > 0 && (
                 <>
                   <div className={styles.body_item_line}>
-                    <strong>Responsibilities:</strong>{" "}
+                    <strong>RESPONSIBILITIES:</strong>{" "}
                   </div>
                   <ul className={styles.body_item_list}>
                     {tab?.body.responsibilities.map(

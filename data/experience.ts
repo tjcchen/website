@@ -12,6 +12,8 @@ const data = [
     },
     body: {
       role: "Senior Software Development Engineer",
+      organization: "Baidu Inc.",
+      location: "Beijing, China",
       start: "2021-02-24",
       end: "Present",
       responsibilities: [
@@ -26,11 +28,13 @@ const data = [
   },
   {
     header: {
-      organization: "Chaince Limited( Hong Kong )",
+      organization: "Chaince Limited (Hong Kong)",
       logo: "/assets/images/chaince.jpg",
     },
     body: {
       role: "Front-End Leader & Co-Founding Team Member",
+      organization: "Chaince Limited (Hong Kong)",
+      location: "Beijing, China / Hong Kong SAR, China",
       start: "2017-12-22",
       end: "2019-06-30",
       responsibilities: [
@@ -51,6 +55,8 @@ const data = [
     },
     body: {
       role: "Software Engineer",
+      organization: "TripAdvisor",
+      location: "Beijing, China",
       start: "2014-06-25",
       end: "2017-06-30",
       responsibilities: [
@@ -70,10 +76,13 @@ const data = [
       logo: "/assets/images/neu.jpg",
     },
     body: {
-      degree: "Master of Science - MS, Computer Software Engineering",
+      organization: "Northeastern University (US)",
+      school: "College of Engineering",
+      major: "Computer Software Engineering & Information Systems",
+      degree: "Master of Science",
+      location: "Boston, MA, USA",
       start: "2020-09-01",
       end: "2020-09-01",
-      responsibilities: [],
     },
   },
   {
@@ -82,10 +91,13 @@ const data = [
       logo: "/assets/images/tute.png",
     },
     body: {
-      degree: "Bachelor's degree, Electronic Commerce",
-      start: "2014-07-01",
-      end: "2010-09-01",
-      responsibilities: [],
+      organization: "Tianjing University of Technology and Education",
+      school: "College of Economics and Management",
+      major: "Electronic Commerce",
+      degree: "Bachelor of Management",
+      location: "Tianjin, China",
+      start: "2014-09-01",
+      end: "2010-07-01",
     },
   },
 ];

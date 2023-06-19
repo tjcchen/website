@@ -7,7 +7,7 @@ import MobileMenu from "@/components/mobile-menu/MobileMenu";
 import MenuProvider from "./menu-provider";
 
 export const metadata = {
-  title: "TJCChen's Website",
+  title: "Andy Chen's Website",
   description: "A personal intro website made by Andy with heart.",
 };
 

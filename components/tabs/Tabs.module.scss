@@ -79,7 +79,16 @@
     }
 
     & .body_item_line {
-      margin-top: 0.08rem;
+      margin-top: 0.09rem;
+    }
+
+    & p.body_item_line:first-child {
+      margin-top: -0.03rem;
+    }
+
+    & .body_item_large {
+      font-size: 0.22rem;
+      font-weight: 700;
     }
   }
 }
