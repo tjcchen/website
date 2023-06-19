@@ -91,7 +91,7 @@
     }
 
     & .body_item_large {
-      font-size: 0.24rem;
+      font-size: 0.22rem;
       font-weight: 700;
     }
   }
@@ -112,7 +112,7 @@
         position: relative;
         margin: 0;
         border-radius: 0;
-        padding: 0.2rem;
+        padding: 0.16rem;
         border-right: 1px solid rgba(0,0,0,0.1);
         
         &:last-child {
@@ -148,6 +148,10 @@
       width: 100%;
       margin: 0;
       padding: 0.48rem 0.6rem 0.8rem;
+
+      & .body_item_large {
+        font-size: 0.18rem;
+      }
     }
   }
 }
@@ -167,7 +171,7 @@
         position: relative;
         margin: 0;
         border-radius: 0;
-        padding: 0.2rem;
+        padding: 0.16rem;
         border-right: 1px solid rgba(0,0,0,0.1);
         
         &:last-child {
@@ -203,6 +207,10 @@
       width: 100%;
       margin: 0;
       padding: 0.3rem 0.36rem 0.6rem;
+
+      & .body_item_large {
+        font-size: 0.18rem;
+      }
     }
   }
 }

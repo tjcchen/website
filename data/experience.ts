@@ -110,7 +110,7 @@ const data = [
   },
   {
     header: {
-      organization: "Tianjing University of Technology and Education",
+      organization: "Tianjin University of Technology and Education",
       logo: "/assets/images/tute.png",
     },
     body: {

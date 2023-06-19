@@ -25,6 +25,10 @@
 @media (min-width: 701px) and (max-width: 1024px) {
   .main {
     padding: 1rem 1.2rem 1.2rem;
+
+    & h1 {
+      font-size: 0.24rem;
+    }
   }
 }
 
@@ -32,5 +36,9 @@
 @media (max-width: 700px) {
   .main {
     padding: 1rem 0.32rem 1.2rem;
+
+    & h1 {
+      font-size: 0.22rem;
+    }
   }
 }

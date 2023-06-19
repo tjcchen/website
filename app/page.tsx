@@ -12,10 +12,10 @@ export default function Home() {
           width={160}
           height={160}
         />
-        <div className={styles.name}>Name: Andy Chen</div>
-        <div className={styles.company}>Serving Company: Baidu Inc.</div>
-        <div className={styles.role}>
-          Role: Senior Software Developerment Engineer
+        <div className={`${styles.name} c-line-clamp1`}>Name: Andy Chen</div>
+        <div className={`${styles.company} c-line-clamp1`}>Serving Company: Baidu Inc.</div>
+        <div className={`${styles.role} c-line-clamp1`}>
+          Senior Software Developerment Engineer
         </div>
       </div>
       <div className={styles.content}>

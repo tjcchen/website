@@ -53,3 +53,10 @@ button, select {
 button, [type="button"], [type="reset"],[type="submit"] {
   -webkit-appearance: button;
 }
+
+/* Universal Styles */
+.c-line-clamp1 {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

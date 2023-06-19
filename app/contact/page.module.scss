@@ -53,6 +53,10 @@
   .main {
     padding: 1rem 1.2rem 1rem;
 
+    & .caption {
+      font-size: 0.24rem;
+    }
+
     & .box {
       flex-direction: column;
     }
@@ -69,5 +73,9 @@
 @media (max-width: 700px) {
   .main {
     padding: 0.8rem 0.32rem 0.8rem;
+
+    & .caption {
+      font-size: 0.22rem;
+    }
   }
 }
