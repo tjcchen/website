@@ -16,7 +16,7 @@ export function NavigationEvents() {
 
   useEffect(() => {
     isMenuActive && setIsMenuActive(false);
-  }, [pathname, searchParams]);
+  }, [usePathname, searchParams]);
 
   return null;
 }

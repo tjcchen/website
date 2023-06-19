@@ -30,7 +30,7 @@ export default function Home() {
           contribute my strength to the GitHub community.
         </p>
         <p>
-          I found my passion in programming and the IT industry when I was a
+          Found my passion in programming and the IT industry when I was a
           sophomore, and after that, I devoted most of my time to this field.
         </p>
         <p>I can be reached via the following channels:</p>

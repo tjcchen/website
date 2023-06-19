@@ -10,10 +10,17 @@ export declare interface TabHeader {
 }
 
 export declare interface TabBody {
+  is_company: number;
   role?: string;
+  organization: string;
   degree?: string;
+  school?: string;
+  major?: string;
   start: string;
   end: string;
+  location: string;
+  introduction?: string;
+  miscellaneous?: string;
   responsibilities?: string[];
 }
 

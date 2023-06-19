@@ -110,7 +110,7 @@ const Tabs = ({
             {tab?.body.introduction && (
               <>
                 <div className={styles.body_item_line_medium}>
-                  <strong>BRIEF INTRODUCTION:</strong>{" "}
+                  <strong>BRIEF COMPANY INTRODUCTION:</strong>{" "}
                 </div>
                 <p className={styles.body_item_line}>
                   {tab?.body.introduction}

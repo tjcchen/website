@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from "react";
 import styles from "./page.module.scss";
-import Tabs, { TabData } from "@/components/tabs/Tabs";
+import Tabs from "@/components/tabs/Tabs";
 import Loading from "./loading";
 
 const Experience = () => {
