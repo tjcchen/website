@@ -8,6 +8,15 @@ Step2: Retrieve the transfer out `authorization code` from other domain service 
 
 Step3: Pay AWS Route 53 fee and wait for the domain to transfer in.
 
+## Deployment with PM2 and Nginx
+```bash
+# pm2 init
+pm2 ecosystem
+
+
+
+```
+
 ## Links
 AWS Route 53: https://us-east-1.console.aws.amazon.com/route53/v2/home#Dashboard
 
