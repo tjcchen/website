@@ -66,6 +66,9 @@ pm2 deploy production
 # then we can check running application remotely
 pm2 list
 
+# pm2 start service
+pm2 --name https-server start npm -- start
+
 #################################################
 # config https with certbot
 #################################################
