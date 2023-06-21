@@ -1,29 +1,64 @@
+"use client";
+
+import { useEffect, useState } from "react";
 import styles from "./page.module.scss";
+import Loading from "./loading.tsx";
 
 const Skill = () => {
+  const [skillsData, setSkillsData] = useState(null);
+
+  useEffect(() => {
+    const fetchData = async () => {
+      const response = await fetch("/api/skill");
+      const data = await response.json();
+      setSkillsData(data);
+      console.log(data);
+    };
+    fetchData();
+  }, []);
+
   return (
-    <main className={styles.main}>
-      <h1>THE SKILLS I GAINED FROM THE PAST DECADE</h1>
-      <p>
-        <strong>Languages:</strong> JavaScript( 5 yrs+ ), Java( 3 yrs+ ), C#( 3
-        yrs+ ), Python, NodeJS, TypeScript, HTML, CSS, SQL
-      </p>
-      <p>
-        <strong>Framework & Libraries:</strong> ReactJS, ReactNative, VueJS,
-        RequireJS, Zepto, jQuery, Mootools, Express, Java Servlet, Velocity,
-        Asp.net, MVC, MVVM, WPF, WCF
-      </p>
-      <p>
-        <strong>Databases:</strong> PostgreSQL, MySQL, SqlServer, MongoDB
-      </p>
-      <p>
-        <strong>Work Env & Tools:</strong> Linux( 5 yrs+ ), GitHub, GitLab, Git(
-        5 yrs+ ), Docker, Nginx, Amazon AWS, Alibaba Cloud, Webpack, Gulp,
-        Gradle, Markdown
-      </p>
-      <h3>
-        Good English Capabilities in Listening, Reading, Writing, and Speaking.
-      </h3>
+    <main
+      className={styles.main}
+      style={{ minHeight: skillsData == null ? "5.68rem" : "auto" }}
+    >
+      {skillsData ? (
+        <>
+          {/* Page Heading */}
+          {skillsData?.heading && <h1>{skillsData?.heading}</h1>}
+          {/* Languages */}
+          {skillsData?.skills?.languages && (
+            <p>
+              <strong>Languages:</strong> {skillsData?.skills?.languages}
+            </p>
+          )}
+          {/* Framework & Libraries */}
+          {skillsData?.skills?.framework && (
+            <p>
+              <strong>Framework & Libraries:</strong>{" "}
+              {skillsData?.skills?.framework}
+            </p>
+          )}
+          {/* Databases */}
+          {skillsData?.skills?.databases && (
+            <p>
+              <strong>Databases:</strong> {skillsData?.skills?.databases}
+            </p>
+          )}
+          {/* Work Env & Tools */}
+          {skillsData?.skills?.tools && (
+            <p>
+              <strong>Work Env & Tools:</strong> {skillsData?.skills?.tools}
+            </p>
+          )}
+          {/* English Capability */}
+          {skillsData?.others?.english && (
+            <h3>{skillsData?.others?.english}</h3>
+          )}
+        </>
+      ) : (
+        <Loading />
+      )}
     </main>
   );
 };

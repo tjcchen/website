@@ -2,11 +2,18 @@
 
 .main {
   background: #FFF;
-  flex: 1 0 calc(100vh - 2.1rem);
+  flex: 1;
+  min-height: 5.68rem;
   display: flex;
   justify-content: center;
+  align-items: center;
   flex-direction: column;
   padding: 1rem 1.8rem 1.2rem;
+
+  & h3,
+  & p {
+    align-self: self-start;
+  }
 
   & h1 {
     text-align: center;
