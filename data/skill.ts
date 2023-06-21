@@ -17,7 +17,7 @@ const data = {
   },
   others: {
     english:
-      "Good English Capabilities in Listening, Reading, Writing, and Speaking.",
+      "With Good English Capabilities in Listening, Reading, Writing, and Speaking.",
   },
 };
 

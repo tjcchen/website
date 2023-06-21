@@ -2,54 +2,55 @@
 
 import { useEffect, useState } from "react";
 import styles from "./page.module.scss";
-import Loading from "./loading.tsx";
+import Loading from "./loading";
+import { SkillData } from "@/interfaces/SkillData";
 
 const Skill = () => {
-  const [skillsData, setSkillsData] = useState(null);
+  const [skillData, setSkillData] = useState<SkillData | null>(null);
 
   useEffect(() => {
     const fetchData = async () => {
       const response = await fetch("/api/skill");
       const data = await response.json();
-      setSkillsData(data);
+      setSkillData(data);
     };
     fetchData();
   }, []);
 
   return (
     <main className={styles.main}>
-      {skillsData ? (
+      {skillData ? (
         <>
           {/* Page Heading */}
-          {skillsData?.heading && <h1>{skillsData?.heading}</h1>}
+          {skillData?.heading && <h1>{skillData?.heading}</h1>}
           {/* Languages */}
-          {skillsData?.skills?.languages && (
+          {skillData?.skills?.languages && (
             <p>
-              <strong>Languages:</strong> {skillsData?.skills?.languages}
+              <strong>Languages:</strong> {skillData?.skills?.languages}
             </p>
           )}
           {/* Framework & Libraries */}
-          {skillsData?.skills?.framework && (
+          {skillData?.skills?.framework && (
             <p>
               <strong>Framework & Libraries:</strong>{" "}
-              {skillsData?.skills?.framework}
+              {skillData?.skills?.framework}
             </p>
           )}
           {/* Databases */}
-          {skillsData?.skills?.databases && (
+          {skillData?.skills?.databases && (
             <p>
-              <strong>Databases:</strong> {skillsData?.skills?.databases}
+              <strong>Databases:</strong> {skillData?.skills?.databases}
             </p>
           )}
           {/* Work Env & Tools */}
-          {skillsData?.skills?.tools && (
+          {skillData?.skills?.tools && (
             <p>
-              <strong>Work Env & Tools:</strong> {skillsData?.skills?.tools}
+              <strong>Work Env & Tools:</strong> {skillData?.skills?.tools}
             </p>
           )}
           {/* English Capability */}
-          {skillsData?.others?.english && (
-            <h3>{skillsData?.others?.english}</h3>
+          {skillData?.others?.english && (
+            <h3>{skillData?.others?.english}</h3>
           )}
         </>
       ) : (

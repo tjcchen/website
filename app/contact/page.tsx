@@ -10,10 +10,9 @@ const Contact = () => {
 
   useEffect(() => {
     const fetchData = async () => {
-      const response = await fetch("/api/skill");
+      const response = await fetch("/api/contact");
       const data = await response.json();
       setContactData(data);
-      console.log(data);
     };
     fetchData();
   }, []);

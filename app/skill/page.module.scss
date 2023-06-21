@@ -2,7 +2,7 @@
 
 .main {
   background: #FFF;
-  flex: 1;
+  flex: 1 0 calc(100vh - 2.1rem);
   display: flex;
   justify-content: center;
   align-items: center;
