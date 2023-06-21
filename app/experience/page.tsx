@@ -18,10 +18,7 @@ const Experience = () => {
   }, []);
 
   return (
-    <main
-      className={styles.main}
-      style={{ minHeight: tabData.length === 0 ? "14.84rem" : "auto" }}
-    >
+    <main className={styles.main}>
       {tabData.length > 0 && (
         <h1 className={styles.caption}>TAP ON THE COMPANY TO SEE MORE INTRO</h1>
       )}

@@ -12,16 +12,12 @@ const Skill = () => {
       const response = await fetch("/api/skill");
       const data = await response.json();
       setSkillsData(data);
-      console.log(data);
     };
     fetchData();
   }, []);
 
   return (
-    <main
-      className={styles.main}
-      style={{ minHeight: skillsData == null ? "5.68rem" : "auto" }}
-    >
+    <main className={styles.main}>
       {skillsData ? (
         <>
           {/* Page Heading */}
