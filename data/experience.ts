@@ -33,7 +33,7 @@ const data = [
         "●	Successfully built a new developer service platform for Baidu Health, facilitating the team's efficiency by providing a robust and user-friendly development environment.",
         "●	Authored more than ten high-quality technical documents and organized internal technical sharing sessions.",
         '●	Provided strong technical support for the self-built page product, contributing to the team winning the Best Team Award at the 2021 Baidu Search GSB Awards and the 2022 Baidu "Riding the Wind" Award.',
-        "●	The Baidu Health self-built page is a health and medical information aggregated website (including mobile and desktop versions), which integrates authoritative health-related content from reputable providers, such as Youlai Doctors, Minfukang Pharmacy, Bohe Doctors, etc., to serve Chinese end-users. The health-related content format includes articles, audio, video, questions and answers, and so forth. It is the No.1 medical platform for ordinary Chinese people to seek professional information in terms of traffic and authority.",
+        "●	The Baidu Health self-built page is a health and medical information aggregated website (including mobile and desktop versions), which integrates authoritative health content from reputable medical information providers, such as Youlai Doctors, Minfukang Pharmacy, Bohe Doctors, etc., to serve Chinese end users. The content format includes articles, audio, video, questions and answers, and so forth. It is the No.1 medical platform for ordinary Chinese people to seek professional information in terms of traffic and authority.",
       ],
     },
   },
@@ -98,20 +98,19 @@ const data = [
   },
   {
     header: {
-      organization: "Northeastern University (USA)",
-      logo: "/assets/images/neu.jpg",
+      organization: "MIT Sloan Executive Education",
+      logo: "/assets/images/mit.jpg",
     },
     body: {
       is_company: 0,
-      organization: "Northeastern University (USA)",
-      school: "College of Engineering",
-      major: "Computer Software Engineering & Information Systems",
-      degree: "Master of Science",
-      location: "Boston, MA, USA",
-      start: "2020-09-01",
-      end: "2020-09-01",
+      organization: "MIT Sloan Executive Education",
+      school: "School of Management",
+      degree: "Executive Certificate in Technology and Operations",
+      location: "Cambridge, MA, USA / Remote",
+      start: "2023-06-10",
+      end: "Present",
       miscellaneous:
-        "Master student candidate, unenrolled due to the pandemic and travel restriction policy.",
+        "Modules: Artificial Intelligence, Project Management - Technical, Systemic Innovation, Strategic Management",
     },
   },
   {
