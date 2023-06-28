@@ -1,6 +1,6 @@
 /**
  * Experience API Data
- * 
+ *
  * @author Andy Chen
  */
 
@@ -17,19 +17,23 @@ const data = [
       location: "Beijing, China",
       start: "2021-02-24",
       end: "Present",
-      introduction: "Baidu is a Chinese technology, internet search and internet services company. \
+      introduction:
+        "Baidu is a Chinese technology, internet search and internet services company. \
         The multinational company was founded by Robin Li in 2000 and is headquartered in Beijing, China. \
         Baidu is one of the most popular search engines and one of the largest internet companies in the world. \
         It is the top internet search engine in China and controls over 75% of China's market share. \
         Baidu is comparable to Google as the company provides a wide variety of services, most notably internet-related and AI services. \
         The company also has divisions for autonomous driving cars, maps, image searching and cloud services.",
       responsibilities: [
-        "Being responsible for the development and maintenance of the self-build page, the largest traffic mobile site of HCG (Health Center Group) with over 120 million PV and 6 million CPM revenue per day.",
-        "Leading the development of the desktop version of the self-build page, which helped millions of patients or people with ailments to obtain professional medical information in China.",
-        "Working as the main owner of HCG's drug commercial project, building from 0 to 1, to facilitate the cooperation between my department and large drug corporations. In the years of 2021 and 2022, this project makes over 18 million in revenue for the company, and the number of our partners continues to grow by far.",
-        "Building a brand new front-end development service platform for the whole FE team in my department to improve developers' productivity. The major functionalities of this platform include: front-end and back-end joint debugging service, product release information display, image optimizing tool, operation link generation service, etc.",
-        "Continuously optimizing the loading speed of the self-build page via different front-end techniques, including caching (CDN), lazy loading, minifying resources, DNS prefetching, etc., to provide the most optimal user experience to our end-users",
-        "PS: The HCG self-build page is a medical and health information aggregated website, which integrates authoritative health-related content from reputable providers, such as Youlai Doctors, Minfukang Pharmacy, Bohe Doctors etc., to Chinese end-users. The health-related content format includes articles, audio, video, questions and answers, and so forth. It is the No.1 medical platform for ordinary Chinese people to seek professional information in terms of traffic and authority.",
+        "●	Collaborated with cross-functional teams on front-end development for various Baidu Health products, including self-built pages, health mini-programs, Aladdin cards, and developer service platform setup.",
+        "●	Led iterative maintenance, performance optimization, error log analysis, and task allocation for the self-built page, which is the largest traffic mobile site of HCG with over 120 million PV and 6 million CPM revenue per day.",
+        "●	Innovated user experience enhancements resulting in a 26% increase in PV (from approximately 100 million to 126 million PV), and improved page load speed by 7% (from 1933ms to 1813ms) through techniques such as optimizing interaction design, CDN implementation, lazy loading, SSR rendering, and codebase refactoring.",
+        "●	Integrated Phoenix Nest ads into self-built pages, significantly boosting revenue with daily ad income exceeding 10 million.",
+        "●	Spearheaded the development of the health mini-program for pharmaceutical marketing, expanding the partner base and generating revenue of over 18 million.",
+        "●	Successfully built a new developer service platform for Baidu Health, facilitating the team's efficiency by providing a robust and user-friendly development environment.",
+        "●	Authored more than ten high-quality technical documents and organized internal technical sharing sessions.",
+        '●	Provided strong technical support for the self-built page product, contributing to the team winning the Best Team Award at the 2021 Baidu Search GSB Awards and the 2022 Baidu "Riding the Wind" Award.',
+        "●	The HCG self-build page is a medical and health information aggregated website, which integrates authoritative health-related content from reputable providers, such as Youlai Doctors, Minfukang Pharmacy, Bohe Doctors etc., to Chinese end-users. The health-related content format includes articles, audio, video, questions and answers, and so forth. It is the No.1 medical platform for ordinary Chinese people to seek professional information in terms of traffic and authority.",
       ],
     },
   },
@@ -40,12 +44,13 @@ const data = [
     },
     body: {
       is_company: 1,
-      role: "Front-End Leader & Co-Founding Team Member",
+      role: "Co-founding Team Member and Front-End Technical Lead ",
       organization: "Chaince Limited (Hong Kong)",
       location: "Beijing, China / Hong Kong SAR, China",
       start: "2017-12-22",
       end: "2019-06-12",
-      introduction: "Chaince is a blockchain startup founded in the year 2017. \
+      introduction:
+        "Chaince is a blockchain startup founded in the year 2017. \
         Its main business includes a blockchain asset trading platform, EOS projects incubation, and the promotion of the global EOS community. \
         With the highest daily trading volume at USD 18 million, Chaince trading platform has ever entered the top 20 in the rankings of largest trading platforms in the world, and reported a daily revenue as high as USD 70,000. \
         Through the joint efforts of the entire team, on November 5, 2018, the company's trading platform reached 115,597 users. \
@@ -53,13 +58,12 @@ const data = [
         In 2019, Chaince continued to expand its influence in the EOS ecosystem. The company has been reported by CoinDesk, TokenPost and other well-known domestic and foreign blockchain media for many times. \
         On June 12, 2019, Chaince was acquired by Hong Kong Hoo Technology Co., Ltd.",
       responsibilities: [
-        "Being responsible for building the White Paper landing page in four languages, including English, Korean, Traditional Chinese, and Simplified Chinese to introduce what the company will do in the future to attract as much attention of a large number of users from all over the world as possible.",
-        "Leading a team to start a project to collect the mailbox registration information of the first batch of users, the number of which reaches to 200, 000+ pieces from users of different countries and regions around the world.",
-        "Being responsible for the front-end technology selection, platform building, and the function development of the core pages, including the page for exchange, home page etc, registration process page.",
-        "Designing and developing the switching function among four languages (English, Korean, Traditional Chinese and Simplified Chinese), different time zones, and currencies to expand the customers, and realize the internationalization function of the platform.",
-        "Continuously optimizing the loading speed of the website, closely communicating with product managers to know the users' feedback, and then making optimization.",
-        "Till April 30, 2019, the number of the platform's users has reached 115, 597.",
-        "Chaince Limited is acquired by Hoo Technology Limited (Hong Kong) in June, 2019.",
+        "●	Led the front-end technology selection, platform development, and core feature development (trading hall, homepage, registration/login flow) for the company's digital currency trading platform.",
+        "●	Designed and implemented a multi-language, multi-time zone, and multi-currency switching feature, enabling internationalization (i18n) support for the company's website.",
+        "●	Developed the email registration and collection system, attracted 200,000+ users globally and fostered business growth.",
+        "●	Established the company's whitepaper website, featuring four language versions and garnering global user attention.",
+        "●	Contributed to the company's platform growth, achieving a user base of 115,597. Reported by renowned blockchain media such as CoinDesk and TokenPost, the company expanded its influence within the global EOS ecosystem.",
+        "●	Acquired by Hoo Technology Limited on June 12, 2019.",
       ],
     },
   },
@@ -75,19 +79,20 @@ const data = [
       location: "Beijing, China",
       start: "2014-06-25",
       end: "2017-06-30",
-      introduction: "Tripadvisor, the world's largest travel guidance platform, helps hundreds of millions of people each month become better travelers, from planning to booking to taking a trip. \
+      introduction:
+        "Tripadvisor, the world's largest travel guidance platform, helps hundreds of millions of people each month become better travelers, from planning to booking to taking a trip. \
         Travelers across the globe use the Tripadvisor site and app to discover where to stay, what to do and where to eat based on guidance from those who have been there before. \
         With more than 1 billion reviews and opinions of nearly 8 million businesses, travelers turn to Tripadvisor to find deals on accommodations, book experiences, reserve tables at delicious restaurants and discover great places nearby. \
         As a travel guidance company available in 43 markets and 22 languages, Tripadvisor makes planning easy no matter the trip type. \
         The subsidiaries of Tripadvisor, Inc. (Nasdaq: TRIP), own and operate a portfolio of travel media brands and businesses, operating under various websites and apps.",
       responsibilities: [
-        "Leading the development of TripAdvisor China's home page (2015 version).",
-        "Designing and developing the configurable function of the video screen on the website home page, which greatly promoted the tourism destinations of the Malaysian Tourism Bureau, Singapore Tourism Bureau, Australian Tourism Bureau and Indonesian Tourism Bureau, and this project made millions advertising revenue for the company.",
-        "Completing the migration work of site maps, from Google Map and Baidu Map to Amap and Bing Map, which significantly improved the user experiences, and at the same time, assisted the website in upgrading from HTTP to HTTPS, and increased the security of the website in China",
-        "Applying the Amap-related API to design and develop the POI, such as hotels, restaurants, and attractions, latitude and longitude coordinate optimization tool to optimize the deviation problem to improve the user experience.",
-        "Developing the navigation page of the Destination Part for the website.",
-        "Applying the Bing Translator-related API to develop the translating function of reviews from English to Chinese to eliminate language barriers for Chinese users.",
-        "Participating in the design and development of the shopping mall coupon project for the mobile version of the website to make promotion for the shopping malls of Phuket Island, Bangkok, Chiang Mai, and Pattaya of Thailand in China.",
+        "●	Led the development and production of the TripAdvisor China homepage (2015 version), considered one of the company's successful redesigns in recent years.",
+        "●	Designed and developed a configurable video feature for the website, contributing to the promotion of travel destinations and generating millions of RMB in advertising revenue.",
+        "●	Successfully migrated maps from Baidu to Amap and Google to Bing, enhancing user experience and site security.",
+        "●	Developed various tools and features, including the optimization of POI coordinates, popular travel destination navigation pages, and English review translation functionality.",
+        "●	Played a key role in the development of the \"Hot Travel Destinations\" navigation page, helping millions of Chinese users access authoritative travel information.",
+        "●	Implemented English review translation functionality to facilitate Chinese travelers in overcoming language barriers.",
+        "●	Contributed to the Shopping Mall Coupon H5 project, promoting Thailand shopping centres to the Chinese market.",
       ],
     },
   },
@@ -105,7 +110,8 @@ const data = [
       location: "Boston, MA, USA",
       start: "2020-09-01",
       end: "2020-09-01",
-      miscellaneous: "Master student candidate, unenrolled due to the pandemic and travel restriction policy.",
+      miscellaneous:
+        "Master student candidate, unenrolled due to the pandemic and travel restriction policy.",
     },
   },
   {
@@ -122,7 +128,8 @@ const data = [
       location: "Tianjin, China",
       start: "2010-07-01",
       end: "2014-09-01",
-      miscellaneous: "Found my passion in programming and the IT industry when I was a sophomore, and after that, I devoted most of my time to this field.",
+      miscellaneous:
+        "Found my passion in programming and the IT industry when I was a sophomore, and after that, I devoted most of my time to this field.",
     },
   },
 ];

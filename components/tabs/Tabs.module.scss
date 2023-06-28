@@ -64,6 +64,7 @@
     width: 70%;
     margin-left: 0.8rem;
     text-align: justify;
+    text-justify: inter-word;
 
     & .body_item {
       display: none;
@@ -73,13 +74,13 @@
       display: block;
     }
 
-    & .body_item_list {
-      list-style-type: square;
-      list-style-position: inside;
-    }
+    // & .body_item_list {
+    //   list-style-type: square;
+    //   list-style-position: inside;
+    // }
 
     & .body_item_line {
-      margin-top: 0.09rem;
+      margin-top: 0.1rem;
     }
 
     & .body_item_line_medium {

@@ -73,7 +73,7 @@ const Tabs = ({
               </p>
             ) : (
               <p className={`${styles.body_item_line} ${styles.body_item_large}`}>
-                <strong>INSTITUTE:</strong> {tab?.body.organization}
+                <strong>INSTITUTION:</strong> {tab?.body.organization}
               </p>
             )}
             {/* School */}
