@@ -20,7 +20,7 @@ const Experience = () => {
   return (
     <main className={styles.main}>
       {tabData.length > 0 && (
-        <h1 className={styles.caption}>TAP ON THE COMPANY TO SEE MORE INTRO</h1>
+        <h1 className={styles.caption}>TAP ON THE COMPANY TO SEE MORE INTRODUCTION</h1>
       )}
       <div className={styles.container}>
         {/* <Loading /> */}

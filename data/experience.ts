@@ -33,7 +33,7 @@ const data = [
         "●	Successfully built a new developer service platform for Baidu Health, facilitating the team's efficiency by providing a robust and user-friendly development environment.",
         "●	Authored more than ten high-quality technical documents and organized internal technical sharing sessions.",
         '●	Provided strong technical support for the self-built page product, contributing to the team winning the Best Team Award at the 2021 Baidu Search GSB Awards and the 2022 Baidu "Riding the Wind" Award.',
-        "●	The HCG self-build page is a medical and health information aggregated website, which integrates authoritative health-related content from reputable providers, such as Youlai Doctors, Minfukang Pharmacy, Bohe Doctors etc., to Chinese end-users. The health-related content format includes articles, audio, video, questions and answers, and so forth. It is the No.1 medical platform for ordinary Chinese people to seek professional information in terms of traffic and authority.",
+        "●	The Baidu Health self-built page is a health and medical information aggregated website (including mobile and desktop versions), which integrates authoritative health-related content from reputable providers, such as Youlai Doctors, Minfukang Pharmacy, Bohe Doctors, etc., to serve Chinese end-users. The health-related content format includes articles, audio, video, questions and answers, and so forth. It is the No.1 medical platform for ordinary Chinese people to seek professional information in terms of traffic and authority.",
       ],
     },
   },
@@ -44,7 +44,7 @@ const data = [
     },
     body: {
       is_company: 1,
-      role: "Co-founding Team Member and Front-End Technical Lead ",
+      role: "Co-founding Team Member and Front-end Technical Lead ",
       organization: "Chaince Limited (Hong Kong)",
       location: "Beijing, China / Hong Kong SAR, China",
       start: "2017-12-22",
@@ -55,8 +55,8 @@ const data = [
         With the highest daily trading volume at USD 18 million, Chaince trading platform has ever entered the top 20 in the rankings of largest trading platforms in the world, and reported a daily revenue as high as USD 70,000. \
         Through the joint efforts of the entire team, on November 5, 2018, the company's trading platform reached 115,597 users. \
         According to statistics, the countries with the largest number of users are China, South Korea, the United States, and Japan, among which the proportion of Korean users has reached 22%. \
-        In 2019, Chaince continued to expand its influence in the EOS ecosystem. The company has been reported by CoinDesk, TokenPost and other well-known domestic and foreign blockchain media for many times. \
-        On June 12, 2019, Chaince was acquired by Hong Kong Hoo Technology Co., Ltd.",
+        In 2019, Chaince continued to expand its influence in the global EOS ecosystem. The company has been reported by CoinDesk, TokenPost and other well-known domestic and foreign blockchain media for many times. \
+        On June 12, 2019, Chaince was acquired by Hong Kong Hoo Technology Limited.",
       responsibilities: [
         "●	Led the front-end technology selection, platform development, and core feature development (trading hall, homepage, registration/login flow) for the company's digital currency trading platform.",
         "●	Designed and implemented a multi-language, multi-time zone, and multi-currency switching feature, enabling internationalization (i18n) support for the company's website.",

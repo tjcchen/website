@@ -24,6 +24,9 @@ const Contact = () => {
         <div className={styles.contact}>
           <h3>Contact</h3>
           <p>
+            <strong>Phone:</strong> +1 (437) 887-1789 
+          </p>
+          <p>
             <strong>Location:</strong> Ontario, Canada
           </p>
           <p>
@@ -36,6 +39,12 @@ const Contact = () => {
             <strong>GitHub:</strong>{" "}
             <Link href="https://github.com/tjcchen" target="_blank">
               https://github.com/tjcchen
+            </Link>
+          </p>
+          <p>
+            <strong>Twitter:</strong>{" "}
+            <Link href="https://twitter.com/tjcchen" target="_blank">
+              https://twitter.com/tjcchen
             </Link>
           </p>
           <p>

@@ -121,7 +121,7 @@ const Tabs = ({
             {tab?.body.miscellaneous && (
               <>
                 <div className={styles.body_item_line_medium}>
-                  <strong>MISCELLANEOUS:</strong>{" "}
+                  <strong>ADDITIONAL INFORMATION:</strong>{" "}
                 </div>
                 <p className={styles.body_item_line}>
                   {tab?.body.miscellaneous}

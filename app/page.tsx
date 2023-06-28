@@ -21,7 +21,7 @@ export default function Home() {
       <div className={styles.content}>
         <p>
           Hi there! My name is Andy Chen. I'm an experienced full-stack software
-          engineer with over 6 years of hands-on development experience. My
+          engineer with over 7 years of hands-on development experience. My
           working experiences include Baidu, TripAdvisor, and a successful
           startup. I write high-quality code, technical design, and
           documentation to help my company fulfill its business goal, and
