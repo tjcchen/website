@@ -94,6 +94,12 @@ const Tabs = ({
                 <strong>DEGREE:</strong> {tab?.body.degree}
               </p>
             )}
+            {/* Certificate */}
+            {tab?.body.certificate && (
+              <p className={styles.body_item_line}>
+                <strong>CERTIFICATE:</strong> {tab?.body.certificate}
+              </p>
+            )}
             {/* Location */}
             {tab?.body.location && (
               <p className={styles.body_item_line}>

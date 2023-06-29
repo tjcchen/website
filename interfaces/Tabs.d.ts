@@ -14,6 +14,7 @@ export declare interface TabBody {
   role?: string;
   organization: string;
   degree?: string;
+  certificate?: string;
   school?: string;
   major?: string;
   start: string;

@@ -105,7 +105,7 @@ const data = [
       is_company: 0,
       organization: "MIT Sloan Executive Education",
       school: "School of Management",
-      degree: "Executive Certificate in Technology and Operations",
+      certificate: "Executive Certificate in Technology and Operations",
       location: "Cambridge, MA, USA / Remote",
       start: "2023-06-10",
       end: "Present",
