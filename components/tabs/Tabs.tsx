@@ -145,7 +145,7 @@ const Tabs = ({
                     {tab?.body.responsibilities.map(
                       (task: string, idx: number) => (
                         <li key={idx} className={styles.body_item_line}>
-                          {task}
+                          <span>{task}</span>
                         </li>
                       )
                     )}

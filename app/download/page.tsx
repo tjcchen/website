@@ -9,7 +9,7 @@ const Download = () => {
       <h1 className={styles.caption}>DOWNLOAD</h1>
       <div className={styles.box}>
         <Link
-          href="https://drive.google.com/file/d/1QTbKBcdQ-f_7kfk_jRi6ENhpUc8LXiF3/view"
+          href="https://drive.google.com/file/d/1cY7k0ugn3NzKvBAQ3iae7QOhtDlXWWpZ/view"
           target="_blank"
           className={styles.card}
         >
@@ -17,7 +17,7 @@ const Download = () => {
           <BiDownload fontSize={48} className={styles.download} />
         </Link>
         <Link
-          href="https://drive.google.com/file/d/1QTbKBcdQ-f_7kfk_jRi6ENhpUc8LXiF3/view"
+          href="https://drive.google.com/file/d/1cY7k0ugn3NzKvBAQ3iae7QOhtDlXWWpZ/view"
           target="_blank"
           className={styles.card}
         >

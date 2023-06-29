@@ -74,13 +74,16 @@
       display: block;
     }
 
-    // & .body_item_list {
-    //   list-style-type: square;
-    //   list-style-position: inside;
-    // }
+    & .body_item_list {
+      list-style: disc inside none;
+    }
 
     & .body_item_line {
       margin-top: 0.1rem;
+
+      & span {
+        margin-left: -0.06rem;
+      }
     }
 
     & .body_item_line_medium {

@@ -6,7 +6,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 1rem 1.8rem 1.2rem;
+  padding: 1rem 1.7rem 1.2rem;
 
   & .caption {
     width: 100%;
@@ -34,6 +34,14 @@
     justify-content: center;
     flex-direction: column;
     padding: 0.1rem;
+    cursor: pointer;
+    transition: all linear 300ms;
+
+    &:hover {
+      background: #ADD8E6;
+      color: #FFFFFF;
+      box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.1);
+    }
   }
 
   & .download {
@@ -66,9 +74,9 @@
     }
 
     & .card {
-      margin-top: 0.2rem;
-      min-width: 2.4rem;
-      min-height: 2rem;
+      margin-top: 0.3rem;
+      min-width: 3rem;
+      min-height: 2.4rem;
 
       &:first-child {
         margin-top: 0;

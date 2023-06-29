@@ -38,6 +38,10 @@
       color: #FFF;
       font-size: 0.18rem;
       font-weight: 700;
+
+      &:first-child {
+        margin-left: 0;
+      }
     }
   }
 
