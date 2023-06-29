@@ -1,11 +1,13 @@
-#!/bin/sh
+#!/bin/bash
 
-cd /home/ubuntu/current
+set -e
+
 npm install
 
-if [ $DEV ]; then
+if [ $DEV ]
+then
   npm run dev;
-  else
+else
   npm run build;
   npm start;
 fi
