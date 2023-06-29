@@ -35,6 +35,9 @@ const Header = () => {
           <Link href="/skill" className={styles.header__right__link}>
             Skill
           </Link>
+          <Link href="/download" className={styles.header__right__link}>
+            Download
+          </Link>
           <Link href="/contact" className={styles.header__right__link}>
             Contact
           </Link>

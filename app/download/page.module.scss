@@ -1,0 +1,78 @@
+/* Download Styles */
+
+.main {
+  background: #FFF;
+  flex: 1 0 calc(100vh - 2.1rem);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1rem 1.8rem 1.2rem;
+
+  & .caption {
+    width: 100%;
+    text-align: center;
+  }
+
+  & .box {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 0.48rem;
+  }
+
+  & .card {
+    width: 30%;
+    height: 3.2rem;
+    height: 20vw;
+    background: #F4F4F4;
+    color: #333;
+    border-radius: 0.12rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0.1rem;
+  }
+
+  & .download {
+    margin-top: 0.1rem;
+  }
+}
+
+/* Tablet and Mobile */
+@media (max-width: 1024px) {
+  .main {
+    padding: 1rem 1.2rem 1.2rem;
+
+    & .caption {
+      font-size: 0.24rem;
+    }
+  }
+}
+
+/* Mobile */
+@media (max-width: 700px) {
+  .main {
+    padding: 0.8rem 0.32rem 1.1rem;
+
+    & .caption {
+      font-size: 0.22rem;
+    }
+
+    & .box {
+      flex-direction: column;
+    }
+
+    & .card {
+      margin-top: 0.2rem;
+      min-width: 2.4rem;
+      min-height: 2rem;
+
+      &:first-child {
+        margin-top: 0;
+      }
+    }
+  }
+}
