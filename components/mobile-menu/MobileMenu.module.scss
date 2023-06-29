@@ -64,5 +64,9 @@
       background: #ADD8E6;
       color: #FFF;
     }
+
+    &:last-child {
+      border-bottom: none;
+    }
   }
 }

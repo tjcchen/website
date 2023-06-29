@@ -43,9 +43,6 @@ const MobileMenu = () => {
           <Link href="/contact" className={styles.menu__item}>
             Contact
           </Link>
-          <Link href="http://www.tjcchen.cn" className={styles.menu__item}>
-            EN / CN
-          </Link>
         </div>
       </div>
     </div>
