@@ -125,8 +125,8 @@ const data = [
       major: "Electronic Commerce",
       degree: "Bachelor of Management",
       location: "Tianjin, China",
-      start: "2010-07-01",
-      end: "2014-09-01",
+      start: "2010-09-01",
+      end: "2014-07-01",
       miscellaneous:
         "Found my passion in programming and the IT industry when I was a sophomore, and after that, I devoted most of my time to this field.",
     },
