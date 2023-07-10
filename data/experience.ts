@@ -28,7 +28,7 @@ const data = [
         "Collaborated with cross-functional teams on front-end development for various Baidu Health products, including self-built pages, health mini-programs, Aladdin cards, and developer service platform setup.",
         "Led iterative maintenance, performance optimization, error log analysis, and task allocation for the self-built page, which is the largest traffic mobile site of HCG with over 120 million PV and 6 million CPM revenue per day.",
         "Innovated user experience enhancements resulting in a 26% increase in PV (from approximately 100 million to 126 million PV), and improved page load speed by 7% (from 1933ms to 1813ms) through techniques such as optimizing interaction design, CDN implementation, lazy loading, SSR rendering, and codebase refactoring.",
-        "Integrated Phoenix Nest ad 949 into self-built pages, significantly boosting revenue with daily ad income exceeding 10 million.",
+        "Integrated Phoenix Nest 949 ads into self-built pages, significantly boosting revenue with daily ad income exceeding 10 million.",
         "Spearheaded the development of the health mini-program for pharmaceutical marketing, expanding the partner base and generating revenue of over 18 million.",
         "Successfully built a new developer service platform for Baidu Health, facilitating the team's efficiency by providing a robust and user-friendly development environment.",
         "Authored more than ten high-quality technical documents and organized internal technical sharing sessions.",
