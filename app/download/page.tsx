@@ -9,7 +9,7 @@ const Download = () => {
       <h1 className={styles.caption}>DOWNLOAD DOCUMENTS</h1>
       <div className={styles.box}>
         <Link
-          href="https://drive.google.com/file/d/1cY7k0ugn3NzKvBAQ3iae7QOhtDlXWWpZ/view"
+          href="https://drive.google.com/file/d/1I0LV5G_y-KafYaGh0L6R7jqiotmvnUIi/view"
           target="_blank"
           className={styles.card}
         >

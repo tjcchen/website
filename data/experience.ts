@@ -25,7 +25,7 @@ const data = [
         Baidu is comparable to Google as the company provides a wide variety of services, most notably internet-related and AI services. \
         The company also has divisions for autonomous driving cars, maps, image searching and cloud services.",
       responsibilities: [
-        "Collaborated with cross-functional teams on front-end development for various Baidu Health products, including self-built pages, health mini-programs, Aladdin cards, and developer service platform setup.",
+        "Collaborated with cross-functional teams on web development for various Baidu Health products, including self-built pages, health mini-programs, Aladdin cards, and developer service platform setup.",
         "Led iterative maintenance, performance optimization, error log analysis, and task allocation for the self-built page, which is the largest traffic mobile site of HCG with over 120 million PV and 6 million CPM revenue per day.",
         "Innovated user experience enhancements resulting in a 26% increase in PV (from approximately 100 million to 126 million PV), and improved page load speed by 7% (from 1933ms to 1813ms) through techniques such as optimizing interaction design, CDN implementation, lazy loading, SSR rendering, and codebase refactoring.",
         "Integrated Phoenix Nest 949 ads into self-built pages, significantly boosting revenue with daily ad income exceeding 10 million.",
