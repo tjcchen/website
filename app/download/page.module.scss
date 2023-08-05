@@ -35,7 +35,7 @@
     flex-direction: column;
     padding: 0.1rem;
     cursor: pointer;
-    transition: all linear 300ms;
+    transition: background linear 300ms, color linear 300ms, box-shadow linear 300ms;
 
     &:hover {
       background: #ADD8E6;
@@ -52,17 +52,6 @@
 /* Tablet and Mobile */
 @media (max-width: 1024px) {
   .main {
-    padding: 1rem 1.2rem 1.2rem;
-
-    & .caption {
-      font-size: 0.24rem;
-    }
-  }
-}
-
-/* Mobile */
-@media (max-width: 700px) {
-  .main {
     padding: 0.8rem 0.32rem 1.1rem;
 
     & .caption {
@@ -74,7 +63,7 @@
     }
 
     & .card {
-      margin-top: 0.3rem;
+      margin-top: 0.4rem;
       min-width: 3rem;
       min-height: 2.4rem;
 
