@@ -18,12 +18,7 @@ const Header = () => {
     <header className={styles.header}>
       <div className={styles.header__inner}>
         <Link href="/" className={styles.header__logo}>
-          <Image
-            src="/assets/icons/logo.jpg"
-            width={72}
-            height={72}
-            alt="tjcchen.com"
-          />
+          TJCCHEN.COM
         </Link>
         <div className={styles.header__right}>
           <Link href="/" className={styles.header__right__link}>
@@ -45,7 +40,7 @@ const Header = () => {
             href="http://www.tjcchen.cn"
             className={styles.header__right__link}
           >
-            EN / CN
+            EN | CN
           </Link>
         </div>
         <button className={styles.menu__btn} onClick={onMenuClick}>
