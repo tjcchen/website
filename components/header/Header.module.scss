@@ -3,8 +3,8 @@
 .header {
   height: 0.9rem;
   border-bottom: 0.01rem solid #ccc;
-  background: #1A1A1A;
-  // background: #00B2E3;
+  // background: #1A1A1A;
+  background: 	#0a66c2;
 
   &__inner {
     width: 100%;
@@ -48,7 +48,8 @@
   & .menu__btn {
     padding: 0.1rem;
     color: #FFF;
-    background: #1A1A1A;
+    // background: #1A1A1A;
+    background: #0a66c2;
     outline: none;
     border: 2px solid #FFF;
     display: none;
