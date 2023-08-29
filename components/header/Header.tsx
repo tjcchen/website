@@ -40,7 +40,7 @@ const Header = () => {
             href="http://www.tjcchen.cn"
             className={styles.header__right__link}
           >
-            EN | CN
+            EN / CN
           </Link>
         </div>
         <button className={styles.menu__btn} onClick={onMenuClick}>
