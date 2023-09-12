@@ -89,4 +89,7 @@ sudo ln -s /snap/bin/certbot /usr/bin/certbot
 
 # Config your nginx server with certbot, this will generate https config to /etc/nginx/conf.d/myapp.conf
 sudo certbot --nginx
+
+# renew certbot( single domain )
+sudo certbot certonly --force-renew -d www.tjcchen.com
 ```
