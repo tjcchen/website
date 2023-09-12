@@ -17,19 +17,17 @@ const Download = () => {
           <BiDownload fontSize={48} className={styles.download} />
         </Link>
         <Link
-          href="https://drive.google.com/file/d/1QTbKBcdQ-f_7kfk_jRi6ENhpUc8LXiF3/view"
-          target="_blank"
+          href="javascript:;"
           className={styles.card}
         >
-          <strong>IELTS</strong>
+          <strong>Stay Tuned</strong>
           <BiDownload fontSize={48} className={styles.download} />
         </Link>
         <Link
-          href="https://drive.google.com/file/d/1agguNEjwz6sSiUenAdiP8dw7kmIhq6Ax/view"
-          target="_blank"
+          href="javascript:;"
           className={styles.card}
         >
-          <strong>Express Entry</strong>
+          <strong>Stay Tuned</strong>
           <BiDownload fontSize={48} className={styles.download} />
         </Link>
       </div>
