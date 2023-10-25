@@ -18,9 +18,10 @@ const Download = () => {
         </Link>
         <Link
           href="javascript:;"
+          target="_blank"
           className={styles.card}
         >
-          <strong>Stay Tuned</strong>
+          <strong>IELTS</strong>
           <BiDownload fontSize={48} className={styles.download} />
         </Link>
         <Link
