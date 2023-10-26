@@ -17,7 +17,7 @@ const Download = () => {
           <BiDownload fontSize={48} className={styles.download} />
         </Link>
         <Link
-          href="javascript:;"
+          href="https://drive.google.com/file/d/1teY50DKLDBiSOvYwB7gPWinq-Kk2lG12/view"
           target="_blank"
           className={styles.card}
         >
