@@ -8,16 +8,16 @@ const data = {
   heading: "THE SKILLS I GAINED FROM THE PAST DECADE",
   skills: {
     languages:
-      "JavaScript( 5 yrs+ ), Java( 3 yrs+ ), C#( 3 yrs+ ), Python, NodeJS, TypeScript, HTML, CSS, SQL( 3 yrs+ )",
+      "Java, C#, Python, JavaScript, NodeJS, TypeScript, HTML, CSS, SQL",
     framework:
-      "ReactJS/Native, VueJS, RequireJS, Zepto, jQuery, Mootools, Express, Java Servlet, Velocity, ASP.NET, MVC, MVVM, WPF, WCF, SOA",
+      "Java Servlet, Velocity, ASP.NET, MVC, MVVM, WPF, SOA, Microservice, RPC, ReactJS, React Native, VueJS, RequireJS, Zepto, jQuery, Mootools, Express",
     databases: "PostgreSQL, MySQL, SqlServer, MongoDB",
     tools:
-      "Linux( 5 yrs+ ), GitHub, GitLab, Git( 5 yrs+ ), Docker, Nginx, Amazon AWS, Alibaba Cloud, Webpack, Gulp, Gradle, Markdown",
+      "Linux, GitHub, GitLab, Git, Docker, Nginx, Amazon AWS, Alibaba Cloud, Webpack, Gulp, Gradle, Markdown",
   },
   others: {
     english:
-      "With Good English Capabilities in Listening, Reading, Writing, and Speaking.",
+      "Excellent English Capabilities in Listening, Reading, Writing, and Speaking.",
   },
 };
 

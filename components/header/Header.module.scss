@@ -15,21 +15,9 @@
     align-items: center;
   }
 
-  // &__logo {
-  //   border-radius: 100%;
-  //   overflow: hidden;
-  //   width: 72px;
-  //   height: 72px;
-  //   flex: 0 0 auto;
-  //   & img {
-  //     border-radius: 100%;
-  //   }
-  // }
-
   &__logo {
     flex: 0 0 auto;
     color: #FFF;
-    font-weight: 700;
   }
 
   &__right {
@@ -43,7 +31,6 @@
       text-decoration: none;
       color: #FFF;
       font-size: 0.18rem;
-      font-weight: 700;
 
       &:first-child {
         margin-left: 0;
@@ -65,7 +52,6 @@
     
     & span {
       color: #FFF;
-      font-weight: 700;
       margin-left: 0.05rem;
       font-size: 0.18rem;
     }

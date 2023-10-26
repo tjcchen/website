@@ -1,7 +1,6 @@
 /* Footer Style */
 
 .footer {
-  height: 1.2rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -10,6 +9,7 @@
   // background: #00B2E3;
   color: #FFF;
   text-align: center;
+  padding: 0.3rem 0.2rem;
 
   & div:last-child {
     margin-top: 0.06rem;
@@ -18,7 +18,7 @@
 
 /* Mobile */
 @media (max-width: 700px) {
-  .footer {
-    padding: 0 0.2rem;
-  }
+  // .footer {
+  //   padding: 0 0.2rem;
+  // }
 }
