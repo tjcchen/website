@@ -144,8 +144,8 @@ const Tabs = ({
                   <ul className={styles.body_item_list}>
                     {tab?.body.responsibilities.map(
                       (task: string, idx: number) => (
-                        <li key={idx} className={styles.body_item_line}>
-                          <span>{task}</span>
+                        <li key={idx} className={styles.body_item_dotted}>
+                          {task}
                         </li>
                       )
                     )}
