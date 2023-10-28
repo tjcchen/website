@@ -3,12 +3,12 @@ import { MdArrowUpward } from "react-icons/md";
 import styles from "./BackTop.module.scss";
 
 const BackTop = () => {
-  const onClick = () => {
-    console.log(111);
-  }
+  const handleClick = () => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  };
 
   return (
-    <div className={styles.backTop} onClick={onClick}>
+    <div className={styles.backTop} onClick={handleClick}>
       <MdArrowUpward color="black" fontSize="24px" />
     </div>
   );
