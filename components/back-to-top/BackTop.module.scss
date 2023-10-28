@@ -1,0 +1,17 @@
+/* BackToTop stylesheet */
+
+.backTop {
+  position: fixed;
+  right: 0.8rem;
+  bottom: 0.7rem;
+  width: 0.48rem;
+  height: 0.48rem;
+  overflow: hidden;
+  background: #fff;
+  border-radius: 0.09rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  box-shadow: 0 0 1px 1px rgba(0,0,0,0.3);
+}

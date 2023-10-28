@@ -3,6 +3,7 @@
 import { useState, useEffect } from "react";
 import styles from "./page.module.scss";
 import Tabs from "@/components/tabs/Tabs";
+import BackTop from "@/components/back-to-top/BackTop";
 import Loading from "./loading";
 
 const Experience = () => {
@@ -18,19 +19,25 @@ const Experience = () => {
   }, []);
 
   return (
-    <main className={styles.main}>
-      {tabData.length > 0 && (
-        <h1 className={styles.caption}>TAP ON THE COMPANY TO SEE MORE INTRODUCTION</h1>
-      )}
-      <div className={styles.container}>
-        {/* <Loading /> */}
-        {tabData.length === 0 ? (
-          <Loading />
-        ) : (
-          <Tabs data={tabData} onTabClick={() => {}} />
+    <>
+      <main className={styles.main}>
+        {tabData.length > 0 && (
+          <h1 className={styles.caption}>
+            TAP ON THE COMPANY TO SEE MORE INTRODUCTION
+          </h1>
         )}
-      </div>
-    </main>
+        <div className={styles.container}>
+          {/* <Loading /> */}
+          {tabData.length === 0 ? (
+            <Loading />
+          ) : (
+            <Tabs data={tabData} onTabClick={() => {}} />
+          )}
+        </div>
+      </main>
+      {/* BackTop */}
+      <BackTop />
+    </>
   );
 };
 
