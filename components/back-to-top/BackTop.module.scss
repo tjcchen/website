@@ -14,6 +14,14 @@
   align-items: center;
   cursor: pointer;
   box-shadow: 0 0 1px 1px rgba(0,0,0,0.3);
+  visibility: hidden;
+  opacity: 0;
+  transition: all linear 180ms;
+}
+
+.active {
+  visibility: visible;
+  opacity: 1;
 }
 
 /* Tablet and Smaller Desktop */
