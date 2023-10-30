@@ -69,6 +69,12 @@ pm2 list
 # pm2 start service
 pm2 --name https-server start npm -- start
 
+# to gracefully reload the app without downtime
+pm2 reload "your-app-name"
+
+# run the Build in the background
+nohup npm run build > build.log 2>&1 &
+
 #################################################
 # config https with certbot
 #################################################
