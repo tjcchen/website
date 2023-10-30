@@ -7,7 +7,7 @@ pm2 ecosystem
 chmod 400 key.pem
 
 # login via ssh
-ssh -i key.pem ubuntu@44.201.246.101
+ssh -i key.pem ubuntu@3.82.226.126
 
 # install nvm on remote ubuntu machine
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash
@@ -74,6 +74,10 @@ pm2 reload "your-app-name"
 
 # run the Build in the background
 nohup npm run build > build.log 2>&1 &
+
+# check ec2 memory and disk size
+memory: free -m
+disk: df -h
 
 #################################################
 # config https with certbot
