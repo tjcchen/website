@@ -10,7 +10,7 @@ const data = {
     languages:
       "Java, C#, Python, JavaScript, NodeJS, TypeScript, HTML, CSS, SQL",
     framework:
-      "Java Servlet, Velocity, ASP.NET, MVC, MVVM, WPF, SOA, Microservice, RPC, ReactJS, React Native, VueJS, RequireJS, Zepto, jQuery, Mootools, Express",
+      "Java Spring Boot, Servlet, Velocity, ASP.NET, MVC, MVVM, WPF, SOA, Microservice, RPC, ReactJS, React Native, VueJS, RequireJS, Zepto, jQuery, Mootools, Express",
     databases: "PostgreSQL, MySQL, SqlServer, MongoDB",
     tools:
       "Linux, GitHub, GitLab, Git, Docker, Nginx, Amazon AWS, Alibaba Cloud, Webpack, Gulp, Gradle, Markdown",
