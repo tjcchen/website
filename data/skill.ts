@@ -8,7 +8,7 @@ const data = {
   heading: "THE SKILLS I GAINED FROM THE PAST DECADE",
   skills: {
     languages:
-      "Java, C#, Python, JavaScript, NodeJS, TypeScript, HTML, CSS, SQL",
+      "Java, C#, Python, Go, JavaScript, NodeJS, TypeScript, HTML, CSS, SQL",
     framework:
       "Spring Boot, Servlet, Velocity, ASP.NET, MVC, MVVM, WPF, SOA, Microservice, RPC, ReactJS, React Native, VueJS, RequireJS, Zepto, jQuery, Mootools, Express",
     databases: "PostgreSQL, MySQL, SqlServer, MongoDB",
@@ -17,7 +17,7 @@ const data = {
   },
   others: {
     english:
-      "Excellent English Capabilities in Listening, Reading, Writing, and Speaking.",
+      "With Excellent English Capabilities in Listening, Reading, Writing, and Speaking.",
   },
 };
 

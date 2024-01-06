@@ -2,12 +2,12 @@
 
 .main {
   background: #FFF;
-  flex: 1 0 calc(100vh - 2.1rem);
+  min-height: 5.3rem;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  padding: 1rem 1.9rem 1.2rem;
+  padding: 0 1.9rem;
 
   & h3,
   & p {
@@ -20,6 +20,7 @@
 
   & h3 {
     margin-top: 0.3rem;
+    font-weight: 700 !important;
   }
 
   & p {
@@ -30,7 +31,8 @@
 /* Tablet and Smaller Desktop */
 @media (min-width: 701px) and (max-width: 1024px) {
   .main {
-    padding: 1rem 1.2rem 1.2rem;
+    padding: 0.8rem 1.2rem 1.1rem;
+    min-height: calc(100vh - 2.24rem);
 
     & h1 {
       font-size: 0.24rem;
@@ -41,7 +43,7 @@
 /* Mobile */
 @media (max-width: 700px) {
   .main {
-    padding: 1rem 0.32rem 1.2rem;
+    padding: 0.8rem 0.32rem 1.1rem;
 
     & h1 {
       font-size: 0.22rem;
