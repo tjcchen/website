@@ -49,9 +49,7 @@ const Skill = () => {
             </p>
           )}
           {/* English Capability */}
-          {skillData?.others?.english && (
-            <h3>{skillData?.others?.english}</h3>
-          )}
+          {skillData?.others?.english && <h3>{skillData?.others?.english}</h3>}
         </>
       ) : (
         <Loading />

@@ -1,13 +1,19 @@
 /* Skills Loading Styles */
 
 .container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
   width: 100%;
+  padding: 0 1.9rem;
+  min-height: calc(100vh - 2.24rem);
+  transform: translate3d(0, 0, 0);
 }
 
 .heading {
   width: 80%;
   height: 0.48rem;
-  margin: 0 auto;
+  margin: -0.1rem auto 0;
 }
 
 .line {
@@ -36,27 +42,33 @@
 
 
 /* Tablet and Smaller Desktop */
-@media (min-width: 701px) and (max-width: 1024px) {
-  .heading {
-    height: 0.48rem;
+@media (max-width: 1024px) {
+  .container {
+    padding: 0;
   }
 
-  .line, .boldline {
-    height: 0.48rem;
-  }
+  // .heading {
+  //   height: 0.48rem;
+  // }
+
+  // .line,
+  // .boldline {
+  //   height: 0.48rem;
+  // }
 }
 
 /* Mobile */
-@media (max-width: 700px) {
-  .heading {
-    height: 0.54rem;
-  }
+// @media (max-width: 700px) {
+//   .heading {
+//     height: 0.54rem;
+//   }
 
-  .line, .boldline {
-    height: 0.54rem;
-  }
+//   .line,
+//   .boldline {
+//     height: 0.54rem;
+//   }
 
-  .lastline {
-    width: 100%;
-  }
-}
+//   .lastline {
+//     width: 100%;
+//   }
+// }

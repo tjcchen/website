@@ -2,20 +2,23 @@
 
 .main {
   background: #FFF;
-  min-height: 5.3rem;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  padding: 0 1.9rem;
+  min-height: calc(100vh - 2.24rem);
+  transform: translate3d(0, 0, 0);
 
+  & h1,
   & h3,
   & p {
+    padding: 0 1.9rem;
     align-self: self-start;
   }
 
   & h1 {
     text-align: center;
+    margin: -0.08rem auto 0;
   }
 
   & h3 {
@@ -28,22 +31,16 @@
   }
 }
 
-/* Tablet and Smaller Desktop */
-@media (min-width: 701px) and (max-width: 1024px) {
+/* Tablet and Mobile Devices */
+@media (max-width: 1024px) {
   .main {
-    padding: 0.8rem 1.2rem 1.1rem;
-    min-height: calc(100vh - 2.24rem);
+    padding: 0 0.32rem;
 
-    & h1 {
-      font-size: 0.24rem;
+    & h1,
+    & h3,
+    & p {
+      padding: 0;
     }
-  }
-}
-
-/* Mobile */
-@media (max-width: 700px) {
-  .main {
-    padding: 0.8rem 0.32rem 1.1rem;
 
     & h1 {
       font-size: 0.22rem;

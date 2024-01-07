@@ -6,7 +6,7 @@
   flex-direction: column;
   justify-content: center;
   padding: 0 1.8rem;
-  min-height: 5.3rem;
+  min-height: calc(100vh - 2.24rem);
 
   & .caption {
     width: 100%;
@@ -52,7 +52,6 @@
 @media (max-width: 1024px) {
   .main {
     padding: 1rem 1.2rem 1.2rem;
-    min-height: calc(100vh - 2.24rem);
 
     & .caption {
       font-size: 0.24rem;
