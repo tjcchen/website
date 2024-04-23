@@ -13,9 +13,11 @@ export default function Home() {
           height={160}
         />
         <div className={`${styles.name} c-line-clamp1`}>Name: Andy Chen</div>
-        <div className={`${styles.company} c-line-clamp1`}>Serving Company: Baidu Inc.</div>
+        <div className={`${styles.company} c-line-clamp1`}>
+          Company: IELTS Duck, Inc.
+        </div>
         <div className={`${styles.role} c-line-clamp1`}>
-          Senior Software Developerment Engineer
+          Role: Co-Founder & Technical Staff
         </div>
       </div>
       <div className={styles.content}>
