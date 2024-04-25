@@ -7,6 +7,33 @@
 const data = [
   {
     header: {
+      organization: "IELTS Duck, Inc.",
+      logo: "/assets/images/ieltsduck.png",
+    },
+    body: {
+      is_company: 1,
+      role: "Co-Founder & Technical Staff",
+      organization: "IELTS Duck, Inc.",
+      location: "Boston, Massachusetts, United States (Remote)",
+      start: "2023-01-01",
+      end: "Present",
+      introduction:
+        "IELTS Duck is revolutionizing language learning by utilizing OpenAI's advanced GPT-4.0 technology to transcend traditional educational boundaries, offering a highly personalized IELTS speaking preparation experience. Founded by a team of language enthusiasts and tech innovators, IELTS Duck addresses a gap in the market with a user-friendly, interactive, and technologically sophisticated platform that not only simulates the IELTS speaking test environment but also adapts to each user's individual needs. From its humble beginnings, driven by a passion to make IELTS preparation more accessible and effective, IELTS Duck has grown into a global leader in educational technology, empowering users worldwide to achieve their language goals and excel in a globally connected environment. Each user's feedback and success have fueled continuous innovation, making IELTS Duck a testament to the power of integrating cutting-edge technology with personalized education.",
+      responsibilities: [
+        "Collaborated with cross-functional teams on web development for various Baidu Health products, including self-built pages, health mini-programs, Aladdin cards, and developer service platform setup.",
+        "Led iterative maintenance, performance optimization, error log analysis, and task allocation for the self-built page, which is the largest traffic mobile site of HCG with over 120 million PV and 6 million CPM revenue per day.",
+        "Innovated user experience enhancements resulting in a 26% increase in PV (from approximately 100 million to 126 million PV), and improved page load speed by 7% (from 1933ms to 1813ms) through techniques such as optimizing interaction design, CDN implementation, lazy loading, SSR rendering, and codebase refactoring.",
+        "Integrated Phoenix Nest 949 ads into self-built pages, significantly boosting revenue with daily ad income exceeding 10 million.",
+        "Spearheaded the development of the health mini-program for pharmaceutical marketing, expanding the partner base and generating revenue of over 18 million.",
+        "Successfully built a new developer service platform for Baidu Health, facilitating the team's efficiency by providing a robust and user-friendly development environment.",
+        "Authored more than ten high-quality technical documents and organized internal technical sharing sessions.",
+        'Provided strong technical support for the self-built page product, contributing to the team winning the Best Team Award at the 2021 Baidu Search GSB Awards and the 2022 Baidu "Riding the Wind" Award.',
+        "The Baidu Health self-built page is a health and medical information aggregated website (including mobile and desktop versions), which integrates authoritative health content from reputable medical information providers, such as Youlai Doctors, Minfukang Pharmacy, Bohe Doctors, etc., to serve Chinese end users. The content format includes articles, audio, video, questions and answers, and so forth. It is the No.1 medical platform for ordinary Chinese people to seek professional information in terms of traffic and authority.",
+      ],
+    },
+  },
+  {
+    header: {
       organization: "Baidu Inc.",
       logo: "/assets/images/baidu.jpg",
     },
@@ -16,7 +43,7 @@ const data = [
       organization: "Baidu Inc.",
       location: "Beijing, China",
       start: "2021-02-24",
-      end: "Present",
+      end: "2022-10-01",
       introduction:
         "Baidu is a Chinese technology, internet search and internet services company. \
         The multinational company was founded by Robin Li in 2000 and is headquartered in Beijing, China. \
@@ -90,29 +117,29 @@ const data = [
         "Designed and developed a configurable video feature for the website, contributing to the promotion of travel destinations and generating millions of RMB in advertising revenue.",
         "Successfully migrated maps from Baidu to Amap and Google to Bing, enhancing user experience and site security.",
         "Developed various tools and features, including the optimization of POI coordinates, popular travel destination navigation pages, and English review translation functionality.",
-        "Played a key role in the development of the \"Hot Travel Destinations\" navigation page, helping millions of Chinese users access authoritative travel information.",
+        'Played a key role in the development of the "Hot Travel Destinations" navigation page, helping millions of Chinese users access authoritative travel information.',
         "Implemented English review translation functionality to facilitate Chinese travelers in overcoming language barriers.",
         "Contributed to the Shopping Mall Coupon H5 project, promoting Thailand shopping centres to the Chinese market.",
       ],
     },
   },
-  {
-    header: {
-      organization: "MIT Sloan Executive Education",
-      logo: "/assets/images/mit.jpg",
-    },
-    body: {
-      is_company: 0,
-      organization: "MIT Sloan Executive Education",
-      school: "School of Management",
-      certificate: "Executive Certificate in Technology and Operations",
-      location: "Cambridge, MA, USA / Remote",
-      start: "2023-06-10",
-      end: "Present",
-      miscellaneous:
-        "Modules: Artificial Intelligence, Project Management - Technical, Systemic Innovation, Strategic Management",
-    },
-  },
+  // {
+  //   header: {
+  //     organization: "MIT Sloan Executive Education",
+  //     logo: "/assets/images/mit.jpg",
+  //   },
+  //   body: {
+  //     is_company: 0,
+  //     organization: "MIT Sloan Executive Education",
+  //     school: "School of Management",
+  //     certificate: "Executive Certificate in Technology and Operations",
+  //     location: "Cambridge, MA, USA / Remote",
+  //     start: "2023-06-10",
+  //     end: "Present",
+  //     miscellaneous:
+  //       "Modules: Artificial Intelligence, Project Management - Technical, Systemic Innovation, Strategic Management",
+  //   },
+  // },
   {
     header: {
       organization: "Tianjin University of Technology and Education",
