@@ -1,18 +1,20 @@
 /* Skills Style */
 
 .main {
+  width: 70%;
+  margin: 0 auto;
   background: #FFF;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  padding: 1rem 0 1.4rem;
   min-height: calc(100vh - 2.1rem);
   transform: translate3d(0, 0, 0);
 
   & h1,
   & h3,
   & p {
-    padding: 0 1.9rem;
     align-self: self-start;
   }
 
@@ -23,7 +25,6 @@
 
   & h3 {
     margin-top: 0.3rem;
-    font-weight: 700 !important;
   }
 
   & p {
@@ -31,10 +32,18 @@
   }
 }
 
-/* Tablet and Mobile Devices */
-@media (max-width: 1024px) {
+/* Tablet and Smaller Desktop */
+@media (min-width: 701px) and (max-width: 1024px) {
   .main {
-    padding: 0 0.32rem;
+    width: 76%;
+  }
+}
+
+/* Mobile Devices */
+@media (max-width: 700px) {
+  .main {
+    width: 80%;
+    padding: 1rem 0 1.48rem;
 
     & h1,
     & h3,

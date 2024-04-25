@@ -5,7 +5,7 @@
  */
 
 const data = {
-  heading: "THE SKILLS I GAINED FROM THE PAST DECADE",
+  heading: "The Skills I Gained From The Past Decade",
   skills: {
     languages:
       "Java, C#, Python, Go, JavaScript, NodeJS, TypeScript, HTML, CSS, SQL",
@@ -17,7 +17,7 @@ const data = {
   },
   others: {
     english:
-      "With Excellent English Capabilities in Listening, Reading, Writing, and Speaking.",
+      "Proficient in English, demonstrating advanced capabilities in listening, reading, writing, and speaking.",
   },
 };
 
