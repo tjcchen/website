@@ -24,10 +24,10 @@ const Contact = () => {
         <div className={styles.contact}>
           <h3>Contact</h3>
           <p>
-            <strong>Phone:</strong> +1 (437) 887-1789 
+            <strong>Phone:</strong> +86 (185) 1825-1024
           </p>
           <p>
-            <strong>Location:</strong> Ontario, Canada
+            <strong>Location:</strong> Beijing, China
           </p>
           <p>
             <strong>Email:</strong> tjcchen.engineer@gmail.com
