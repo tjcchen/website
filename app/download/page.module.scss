@@ -1,11 +1,13 @@
 /* Download Styles */
 
 .main {
+  width: 78%;
+  margin: 0 auto;
   background: #FFF;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 0 1.7rem;
+  padding: 1rem 0 1.4rem;
   min-height: calc(100vh - 2.1rem);
 
   & .caption {
@@ -21,14 +23,14 @@
     justify-content: space-between;
     margin-top: 0.35rem;
     flex-wrap: wrap;
-    gap: 0.75rem;
+    gap: 0.6rem;
   }
 
   & .card {
     flex: 1;
-    width: 2.5rem;
-    height: 2.5rem;
-    height: 18.5vw;
+    width: 2.6rem;
+    height: 2.6rem;
+    height: 19.2vw;
     background: #F4F4F4;
     color: #333;
     border-radius: 0.12rem;
@@ -55,7 +57,7 @@
 /* Tablet and Mobile */
 @media (max-width: 1024px) {
   .main {
-    padding: 0.8rem 0.32rem 1.1rem;
+    padding: 0.8rem 0 1.1rem;
 
     & .caption {
       font-size: 0.22rem;
