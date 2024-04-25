@@ -5,7 +5,7 @@
  */
 
 const data = {
-  heading: "The Skills I Gained From The Past Decade",
+  heading: "THE SKILLS I GAINED FROM THE PAST DECADE",
   skills: {
     languages:
       "Java, C#, Python, Go, JavaScript, NodeJS, TypeScript, HTML, CSS, SQL",
