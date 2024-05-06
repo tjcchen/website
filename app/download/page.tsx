@@ -9,14 +9,6 @@ const Download = () => {
       <h1 className={styles.caption}>DOWNLOAD DOCUMENTS</h1>
       <div className={styles.box}>
         <Link
-          href="https://drive.google.com/file/d/1cNb_s0T70XiKjKLutN9eVo0iVpgdNa36/view"
-          target="_blank"
-          className={styles.card}
-        >
-          <strong>Resume</strong>
-          <BiDownload fontSize={48} className={styles.download} />
-        </Link>
-        <Link
           href="https://drive.google.com/file/d/1teY50DKLDBiSOvYwB7gPWinq-Kk2lG12/view"
           target="_blank"
           className={styles.card}
@@ -24,10 +16,11 @@ const Download = () => {
           <strong>IELTS</strong>
           <BiDownload fontSize={48} className={styles.download} />
         </Link>
-        <Link
-          href="/download"
-          className={styles.card}
-        >
+        <Link href="/download" className={styles.card}>
+          <strong>Stay Tuned</strong>
+          <BiDownload fontSize={48} className={styles.download} />
+        </Link>
+        <Link href="/download" className={styles.card}>
           <strong>Stay Tuned</strong>
           <BiDownload fontSize={48} className={styles.download} />
         </Link>
