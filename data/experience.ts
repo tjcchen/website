@@ -15,7 +15,7 @@ const data = [
       role: "Co-Founder & Chief Technology Officer",
       organization: "IELTS Duck, Inc.",
       location: "Boston, MA, United States (Remote)",
-      start: "2022-12-01",
+      start: "2023-01-01",
       end: "Present",
       introduction:
         "IELTS Duck is revolutionizing language learning by utilizing OpenAI's advanced GPT-4.0 technology to transcend traditional educational boundaries, offering a highly personalized IELTS speaking preparation experience. Founded by a team of language enthusiasts and tech innovators, IELTS Duck addresses a gap in the market with a user-friendly, interactive, and technologically sophisticated platform that not only simulates the IELTS speaking test environment but also adapts to each user's individual needs. Each user's feedback and success have fueled continuous innovation, making IELTS Duck a testament to the power of integrating cutting-edge technology with personalized education.",
