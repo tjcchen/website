@@ -24,7 +24,7 @@ const data = [
         "Integrated advanced AI technologies, including GPT-4.0, iFlytek speech processing, and real-time human-machine interactions, significantly enhancing product performance and user experience.",
         "Employed a robust technology stack comprising React, Node, Python/Flask, and Serverless PostgreSQL to swiftly develop and validate the product's market feasibility.",
         "Implemented a global strategy from inception, developing an English-language website version and deploying on Amazon AWS, with Nginx for reverse proxy and load balancing to ensure scalability and stability.",
-        "Integrated comprehensive payment solutions including Stripe, Visa, MasterCard, Union Pay, Alipay, and WeChat Pay, and utilized Amazon SES for key customer interactions such as promotional campaigns and password resets, enhancing user engagement and security.",
+        "Integrated comprehensive payment solutions including Visa, MasterCard, Union Pay, Alipay, and WeChat Pay, and utilized Amazon SES for key customer interactions such as promotional campaigns and password resets, enhancing user engagement and security.",
         "Achieved substantial user base growth, with the platform significantly improving the speaking skills of hundreds of students and expanding market outreach through active recruitment of marketing personnel.",
         "Received widespread acclaim and collaboration interest from individual users and educational institutions, reflecting the product's strong market presence and potential.",
         "Initiated and planned the introduction of a mobile application to extend platform access, further augmenting user engagement and learning flexibility.",
