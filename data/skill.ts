@@ -11,7 +11,7 @@ const data = {
       "Java, C#, Python, Go, JavaScript, NodeJS, TypeScript, HTML, CSS, SQL",
     framework:
       "Spring Boot, Servlet, Velocity, Microservice, RPC, Flask, NextJS, ReactJS, RN, VueJS, RequireJS, Express, ASP.NET, MVC, MVVM, WPF, SOA",
-    databases: "PostgreSQL, MySQL, SqlServer, MongoDB",
+    databases: "PostgreSQL, MySQL, SQLServer, MongoDB",
     tools:
       "Linux, GitHub, GitLab, Git, Docker, Nginx, Amazon AWS, Alibaba Cloud, Webpack, Gulp, Gradle, Markdown",
   },
