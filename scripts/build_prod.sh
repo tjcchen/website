@@ -30,3 +30,7 @@ echo "The server has been started/reloaded with PM2."
 pm2 save
 
 echo "Done! Your application is running with PM2 as 'https-server'"
+
+# Display all running PM2 instances
+echo "Listing all PM2 instances:"
+pm2 list
