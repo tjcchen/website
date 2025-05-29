@@ -26,7 +26,7 @@ const data = [
         "Implemented a global strategy from inception, developing an English-language website version and deploying on Amazon AWS, with Nginx for reverse proxy and load balancing to ensure scalability and stability.",
         "Integrated comprehensive payment solutions including Visa, MasterCard, Union Pay, Alipay, and WeChat Pay, and utilized Amazon SES (Simple Email Service) for key customer interactions such as promotional campaigns and password resets, enhancing user engagement and security.",
         "Received widespread acclaim from individual users and partnered with educational institutions, including Personal IELTS Coaching Workshop in Beijing, reflecting the product’s strong market presence and potential.",
-        "Technical Stack: Go/Fiber, Python/Flask, NextJS, React, Node, TypeScript, SCSS, PostgreSQL, Nginx, Amazon AWS, Redis, Docker",
+        "Technical Stack: Python/Flask, Go/Fiber, NextJS, React, Node, TypeScript, SCSS, PostgreSQL, Nginx, Amazon AWS, Redis, Docker",
       ],
     },
   },

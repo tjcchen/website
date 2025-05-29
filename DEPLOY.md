@@ -9,6 +9,8 @@ chmod 400 key.pem
 # login via ssh
 ssh -i key.pem ubuntu@3.82.226.126
 
+ssh -i newkey.pem ubuntu@3.82.226.126
+
 # install nvm on remote ubuntu machine
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash
 
